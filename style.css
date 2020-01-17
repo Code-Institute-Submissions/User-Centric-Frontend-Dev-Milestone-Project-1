@@ -1,14 +1,24 @@
+/* Globals, Header & Nav -------------------------------------------------------------------------------------------------------- */
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-image: url("a.jpeg"); */
-    background-image: url("bg.png");    
+    
+    /* background-image: url("bg.png");     */
+    background-color: rgba(0, 0, 0, 0.9);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     
+}
+#display{
+    width: 100%;
 }
 
 .masthead {
-    
+    background-image: url("bg1.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 nav{
@@ -21,6 +31,7 @@ nav{
 }
 nav.navbar-dark {
     background-color: rgba(60, 59, 59, 0.276);
+    margin-bottom: 0;
     
     
 }
@@ -33,7 +44,7 @@ nav.navbar-dark {
     padding-left: 50%;
 }
 #myCollapsingList{
-    /* margin-left: 50%;   */
+    background-color: rgba(41, 41, 41, 0.098);
 }
 .icon-bar{    
     background-color: floralwhite;
@@ -57,9 +68,15 @@ nav  a {
     /* font-size: large; */
     text-align: center;
     
+    
 }
 
 
+.sec-about{
+    background-color: rgba(255, 235, 205, 0.372);
+}
+
+/* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
@@ -70,16 +87,14 @@ nav  a {
         /* background-color: rgb(0, 0, 0); */
         
     }
-    #myCollapsingList{
-        /* background-color: red; */
-        background-color: rgb(41, 41, 41);
-    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .heroText {
-        margin-top: 10%;
+        /* margin-top: 10%; */
+        /* margin-bottom: 10%; */
+        /* padding-bottom: 25%; */
     }
     .navbar-nav {
         /* background-color: red; */
@@ -115,13 +130,15 @@ nav  a {
         
     }
     .heroText {
-        margin-top: 20%;
+        margin-top: 40%;
     }
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .heroText {
-        margin-top: 40%;
+        /* margin-top: 40%; */
+        /* margin-bottom: 10%; */
+        /* padding-bottom: 25%; */
     }
  }
