@@ -16,9 +16,11 @@ body{
 
 .masthead {
     background-image: url("bg1.png");    
+    padding-top: 10%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    
 }
 
 nav{
@@ -60,10 +62,12 @@ nav  a {
 .heroText {
     color: white;
     text-align: center;
+    font-size: 4em;
 }
 #heroBtn {
     /* color: rgba(255, 250, 240, 0.283); */
-    background-color: rgba(228, 191, 40, 0.215);
+    /* background-color: rgba(228, 191, 40, 0.215); */
+    background-color: rgba(228, 190, 40, 0.804);
     color: white;
     /* font-size: large; */
     text-align: center;
@@ -71,9 +75,14 @@ nav  a {
     
 }
 
-
+/* ABOUT section ------------------------------------------------------------------------------------------------------------ */
 .sec-about{
-    background-color: rgba(255, 235, 205, 0.372);
+    background-color: white;
+    height: 300px;
+}
+.sec-projects{
+    /* background-color: white; */
+    height: 300px;
 }
 
 /* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
@@ -92,7 +101,7 @@ nav  a {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .heroText {
-        /* margin-top: 10%; */
+        margin-top: 10%;
         /* margin-bottom: 10%; */
         /* padding-bottom: 25%; */
     }
@@ -106,8 +115,13 @@ nav  a {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .heroText {
-        /* margin-top: 20%; */
+        font-size: 6em;
+        margin-top: 5%;
     }
+    .masthead {
+        padding-top: 40%;
+    }
+   
     #heroBtn {
         
         background-color: rgba(228, 191, 40, 0.215);
@@ -129,16 +143,24 @@ nav  a {
         padding-left: 50%;
         
     }
+    .masthead {
+        padding-top: 5%;
+    }
     .heroText {
-        margin-top: 40%;
+        font-size: 6em;
+        margin-top: 30%;
     }
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .heroText {
-        /* margin-top: 40%; */
+        font-size: 8em;
+        margin-top: 20%;
         /* margin-bottom: 10%; */
         /* padding-bottom: 25%; */
+    }
+    .masthead {
+        padding-top: 5%;
     }
  }
