@@ -1,16 +1,24 @@
 body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* background-image: url("a.jpeg"); */
-    background-image: url("bg.png");
+    background-image: url("bg.png");    
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+
+.masthead {
+    
+}
+
 nav{
     /* background-color: rgba(0, 0, 0, 0.701); */
     /* color: white; */
+    
 }
 .navbar-brand {
     /* font-size: xx-large; */
+    
 }
 nav.navbar-dark {
     background-color: rgba(60, 59, 59, 0.393);
@@ -19,6 +27,14 @@ nav.navbar-dark {
 }
 .navbar-toggle{
     background-color: rgba(255, 255, 255, 0.219);
+    
+}
+.navbar-nav {
+    /* background-color: red; */
+    padding-left: 50%;
+}
+#myCollapsingList{
+    /* margin-left: 50%;   */
 }
 .icon-bar{    
     background-color: floralwhite;
@@ -30,6 +46,19 @@ nav  a {
     color: rgba(255, 250, 240, 0.283);
 }
 
+.heroText {
+    color: white;
+    text-align: center;
+}
+#heroBtn {
+    /* color: rgba(255, 250, 240, 0.283); */
+    background-color: rgba(228, 191, 40, 0.215);
+    color: white;
+    /* font-size: large; */
+    text-align: center;
+    
+}
+
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -38,27 +67,61 @@ nav  a {
 @media (max-width: 575px) {
     nav.navbar-dark {
         /* background-color: rgba(0, 0, 0, 0.119); */
-        background-color: rgb(0, 0, 0);
+        /* background-color: rgb(0, 0, 0); */
         
+    }
+    #myCollapsingList{
+        /* background-color: red; */
+        background-color: rgb(41, 41, 41);
     }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
- 
+    .heroText {
+        margin-top: 10%;
+    }
+    .navbar-nav {
+        /* background-color: red; */
+        padding-left: 20%;
+    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .heroText {
+        /* margin-top: 20%; */
+    }
+    #heroBtn {
+        
+        background-color: rgba(228, 191, 40, 0.215);
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        
+    }
+    .navbar-nav {
+        /* background-color: red; */
+        padding-left: 20%;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
- 
+    .navbar-nav {
+        /* background-color: red; */
+        padding-left: 50%;
+        
+    }
+    .heroText {
+        margin-top: 20%;
+    }
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .heroText {
+        margin-top: 40%;
+    }
  }
