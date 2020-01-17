@@ -84,11 +84,43 @@ nav  a {
 /* ABOUT section ------------------------------------------------------------------------------------------------------------ */
 .sec-about{
     background-color: white;
-    height: 300px;
+    height: 100px;
 }
 .sec-projects{
     /* background-color: white; */
+    height: 50px;
+}
+
+
+/* scs-center-about-CONTENT ------------------------- */
+#scs-center-about{    
+    padding-top: 30px;
+    /* width: 33%; */
+    margin: 0 auto;    
+    padding-bottom: 30px;
+    background-image: url("bg2.png");
+}
+
+/* 
+                scs-center-about-CONTENT                            
+-----------------------------------------------------
+*/
+#scs-center-circle-container {
+    width: 300px;
     height: 300px;
+    /* padding: 30px; */
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url('bg2.png') no-repeat center center;   
+}
+
+#scs-center-circle-cover-bg {
+    background: url('bg2.png') no-repeat center center;   
+    height: 100%; 
+    border-radius: 50%;
 }
 
 /* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
