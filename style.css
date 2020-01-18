@@ -14,9 +14,14 @@ body{
     width: 100%;
 }
 
+.container {
+    width: 100%;
+}
+
 .bg-fullstack {
     /* background-color: rgba(194, 186, 186, 0.057); */
     background-color: rgba(176, 143, 11, 0.133);
+    
 }
 
 .fullstackSec {
@@ -24,6 +29,11 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     
+    
+}
+
+.FullStackCard {
+    background-color: rgba(0, 0, 0, 0.194);
 }
 
 .masthead {
@@ -59,10 +69,11 @@ nav.navbar-dark {
 }
 .navbar-nav {
     /* background-color: red; */
-    padding-left: 50%;
+    /* padding-left: 50%; */
 }
 #myCollapsingList{
     background-color: rgba(41, 41, 41, 0.098);
+    float: right;
 }
 .icon-bar{    
     background-color: floralwhite;
@@ -118,8 +129,8 @@ nav  a {
 -----------------------------------------------------
 */
 #scs-center-circle-container {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     /* padding: 30px; */
     border-style: solid;
     border-color: #cccccc;
@@ -138,6 +149,8 @@ nav  a {
     width: 300px;
     height: 300px;
 }
+
+
 
 /* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
 
@@ -161,7 +174,7 @@ nav  a {
     }
     .navbar-nav {
         /* background-color: red; */
-        padding-left: 20%;
+        /* padding-left: 20%; */
     }
     
 }
@@ -186,7 +199,7 @@ nav  a {
     }
     .navbar-nav {
         /* background-color: red; */
-        padding-left: 20%;
+        /* padding-left: 20%; */
     }
  }
 
@@ -194,7 +207,7 @@ nav  a {
 @media (min-width: 992px) { 
     .navbar-nav {
         /* background-color: red; */
-        padding-left: 50%;
+        /* padding-left: 50%; */
         
     }
     .masthead {
@@ -217,4 +230,5 @@ nav  a {
     .masthead {
         padding-top: 5%;
     }
+
  }
