@@ -155,6 +155,11 @@ nav  a {
 -----------------------------------------------------
 */
 
+.input-group  {
+    
+    margin: 0 auto;
+}
+
 .form-control {
     background-color: rgba(0, 0, 0, 0.235);
 }
