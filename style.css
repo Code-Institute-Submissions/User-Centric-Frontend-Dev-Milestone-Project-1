@@ -100,6 +100,11 @@ button a {
     color: white;
 }
 
+p ~ h5 {
+    
+    margin: 2%;
+}
+
 
 
 .heroText {
