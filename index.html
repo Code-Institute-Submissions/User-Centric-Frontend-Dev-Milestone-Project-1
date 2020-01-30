@@ -12,92 +12,111 @@
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  -->
-	<!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   -->
-	<link rel="stylesheet" href="style.css">
-	<!-- <link rel="stylesheet" href="mystyle.css"> -->
-
+	<link rel="stylesheet" href="appIndexStyle.css">
+	
 </head>
 
 <body>
+	<!-- Main Nav & Header display -->
+	<div class="container" id="display">
 
-	<!-- 
-        Bootstrap and Jquery CDNS applied
-	 -->
+		<!-- All-Pages Nav -->
+		<nav class="navbar right navbar-dark">
+			<div class='container'>
+				<div class="nav navbar-header ">
 
-	<!-- <div class="container" id = "display"> -->
+					<a class="navbar-brand " href="index.html">{ M|m }</a>
 
-	<nav class="navbar right navbar-dark">
-		<div class='container'>
-			<div class="nav navbar-header ">
-				<a class="navbar-brand " href="index.html">{ M|m }</a>
-
-				<button type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-				</button>
-			</div>
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a href="services.html">Services</a></li>
-				<li><a href="#">Skills</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-
-
-
-	<header class="masthead">
-		<div class='container'>
-			<div class="row">
-				<div class="heroText">
-					<h1>MACmedia</h1>
-					<h6>Software Solutions</h6>
-					<p> { M|m } </p>
-					<button class="btn btn-large" id="heroBtn">
-						<a href="serviceWebApp.html">View More</a>
+					<button type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 				</div>
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+					<li><a class="active" href="services.html">Services</a></li>
+					<li><a href="#fullBG-container">Skills</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 			</div>
-		</div>
-	</header>
+		</nav>
 
-	<hr>
+		<!-- Landing Page Main Heading -->
+		<header class="masthead">
+			<div class='container'>
+				<div class="row">
+					<div class="heroText">
+						<h1>MACmedia</h1>
+						<h6>Software Solutions</h6>
+						<p> { M|m } </p>
+						<button class="btn btn-large" id="heroBtn">
+							<a href="">View More</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
 
+	</div> <!-- Main Nav & Header display
+	_END -->
 
+	<div class="container" id="fullBG-container">
+		<div class="row">		  
+		  <div class="col-xs-12 col-md-6" id="fullBG-left">
+			<div class="col-xs-12 col-md-5">
+			  <!-- <img src="assets/images/a.jpg" class="img-responsive" alt=""/> <br>  -->
+			</div>
+			<div class="text-left">
+			  <h4 class="text-right">				  
+				  <p>
+					  Ability to work <br><small>seamlessly</small><br> accross all <br>
+					  <small>Software</small> layers.<br>
+					  <small>Server side</small> &<br><small>client side</small>
+					  <p>Frontend<small><br>& Backend</small><strong><BR>skills. </strong></p>
+				  </p>
+				  <!-- <br> -->
+				  
+			  </h4>
+			  <p><a href="serviceLogo.html">Frontend<br>Designs</a><strong> </p>
+				<p>{ MAC|media }</p>
+				<p><a href="serviceRedo.html">Web<br>apps</a><strong> </p>
 
+			
+			</div>
+		  </div>		 
+		  <div class="col-xs-12 col-md-6" id="fullBG-right">
+			<div class="col-xs-12 col-md-5">				
+				<!-- <img src="assets/images/a.jpg" class="img-responsive" alt=""/> <br>  -->
+			</div>
+			<div class="text-left">
+			  <h4 class="text-right">
+				<p>
+					Frontend <br><small>deployment</small><br><br>
+					<strong>Backend</strong><br>
+					<small>deployment</small> &<br><strong>Backend</strong><small>server.</small>
+					<p>Management <br><small>experience.</small></p>
+				</p>
+			  </h4>
+			  <p><a href="link">Deployments</a><strong> </p>
+			  <small>{ MAC|media }</small>
+			  <p><a href="link">Deployments</a><strong> </p> <hr>
+			</div>
+		  </div>
+		</div> <!--row-->
+	</div> <!--container-->
 
-
-
-	<!-- About Section -->
-
-
-	<div class="container bg-fullstack">
+	<!-- Fullstack Section -->
+	<div class="contaner" id="bg-fullstack">
 		<div class="row">
 			<div class="col-12 fullstackSec">
-				<hr>
-				<h1>FullStack Web Developer</h1>
-				<p>
-					<h5>
-						Full Stack Developers work seamlessly across all layers of software. They are “broader picture”
-						developers who are aware of the server side as well as the client side’s user experience. In
-						fact, they are a balanced amalgamation of front-end and back-end skills.
-						Full Stack Developers handle everything from Frontend Development to Backend Development to
-						Backend Server Management, as a part of their job role and responsibilities. Thus, organizations
-						are employing full stack developers to grow and expand their digital assets.
-					</h5>
-					<hr>
-
-				</p>
+			
 
 				<div class="col-sm-4 FullStackCard">
 					<h2>Frontend Development</h2>
-					<p>"the visible parts of a website or app"</p><br>
+					<p>Visual designs of the website.</p>
 					<hr>
 					<iframe src="iFrameFront.html" frameborder="1"></iframe>
 
@@ -105,7 +124,7 @@
 				<div class="col-sm-4 FullStackCard">
 
 					<h2>Backend Development</h2>
-					<p>'the “under the hood” databases and infrastructure'</p><br>
+					<p>Databases and Infrastructure.</p><br>
 					<hr>
 					<iframe src="iFrameBack.html" frameborder="1"></iframe>
 				</div>
@@ -113,8 +132,7 @@
 				<div class="col-sm-4 FullStackCard">
 
 					<h2>FullStack Development</h2>
-					<p style="margin-bottom: 30px;">FullStack can apply to a web stack, mobile stack, or a native
-						application stack </p>
+					<p style="margin-bottom: 30px;">Skilled in all aeras of web stack.</p>
 					<hr>
 					<iframe src="iFrameFull.html" frameborder="1"></iframe>
 				</div>
@@ -122,55 +140,29 @@
 			</div>
 		</div>
 		<hr>
-	</div>
-	<hr>
+	</div> <!-- Fullstack Section _END -->
 
-
-
-
-
-
-
-
-
-	<!-- Projects Section -->
-	<div>
-		<section class="sec-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-
-						<h1>MAC</h1>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-
-	<div id="scs-center-about">
-		<div id="scs-center-circle-container">
-			<div id="scs-center-circle-cover-bg"></div>
+	<!-- Branding Footer -->
+	<footer id="footer-background">
+		<div id="footer-container">
+			<div id="footer-brand-image"></div>
 		</div>
-	</div>
-
-
-	<!-- </div> -->
-
-
-
-
+	</footer> <!-- Branding Footer _END -->
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+			crossorigin="anonymous">
 	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+			crossorigin="anonymous">
 	</script>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+			crossorigin="anonymous">
 	</script>
 
 </body>
