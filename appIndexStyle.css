@@ -13,7 +13,8 @@ body {
 }
 
 p {
-    color: rgba(210, 255, 125, 0.973);
+    /* color: rgba(210, 255, 125, 0.973); */
+    color: rgba(168, 247, 23, 0.973);
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);    
 
 }
@@ -134,7 +135,7 @@ button a {
 
 }
 
-/* Header-Landing Background ----- */
+/* Fullstack Marketing Section --------------------------------------------------------------------------------- */
 
 #fullBG-marketing {
     /* background-image: url("assets/images/b.jpg"); */
