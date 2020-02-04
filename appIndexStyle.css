@@ -49,24 +49,24 @@ nav.navbar-dark {
 }
 
 .navbar-nav {
-    /* background-color: red; */
+    /* background-color: rgb(255, 250, 240); */
     /* padding-left: 50%; */
 }
 
 #myCollapsingList {
-    /* background-color: rgba(41, 41, 41, 0.098); */
+    /* background-color: rgb(255, 250, 240); */
     float: right;
 }
 
 .icon-bar {
-    /* background-color: floralwhite; */
+    background-color: rgb(255, 250, 250);
 }
 
 nav a {
     font-size: large;
     text-decoration: none;
     /* color: rgba(255, 250, 240, 0.283); */
-    /* color: floralwhite; */
+    color: rgb(255, 255, 255);
 }
 
 /* HeaderSection --------------------------------------------------------------------------------------------- */
