@@ -12,6 +12,31 @@ body {
 
 }
 
+p {
+    color: rgba(210, 255, 125, 0.973);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);    
+
+}
+a {
+    /* background-color: cornsilk; */
+    color: rgba(168, 247, 23, 0.973);
+}
+p ~ p {
+    color: rgba(255, 255, 255, 0.884);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+br ~ strong {
+    color: rgba(168, 247, 23, 0.973);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+br ~ small {
+    color: rgba(255, 255, 255, 0.884);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+p ~ small  {
+    color: rgba(168, 247, 23, 0.973);
+}
+
 svg {
     width: 100%;
     height: 100%;
@@ -134,6 +159,8 @@ button a {
     height: 350px;
 
 }
+
+
 
 #display {
     width: 100%;
