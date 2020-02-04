@@ -72,15 +72,6 @@
 
 
 
-
-		.container {
-			width: 100%;
-			height: 100%;
-			background-color: rgba(4, 219, 29, 0.397);
-
-			background-image: url("assets/images/mLog1.png");
-		}
-
 		.overlay {
 
 			background-position: center;
@@ -95,29 +86,46 @@
 			color: white;
 		}
 
+		.container{
+			text-shadow: 1px 1px 5px rgb(0, 0, 0);			
+		}
 
 		.bmenu {
 			list-style: none;
-			background-color: rgba(58, 33, 108, 0.39);
+			background-color: rgba(0, 0, 0, 0.13);
 			text-decoration: none;
 			text-decoration-line: none;
 			width: fit-content;
 			padding-right: 25px;
 			border-radius: 5%;
+			text-align: center;
+			/* color: antiquewhite; */
+		}
+		#serviceImg {
+			height: 270px;
+			width: 320px;
+		}
+		#serviceInfo {
+			width: 100%;
+			height: 100%;
+			background-color: rgba(4, 219, 29, 0);
+			background-image: url("#");
+			/* margin-left: 30%; */
+			/* margin-right: 50%; */
+
+			
+		}
+		#serviceImg {
+			margin-left: 4%;
+		}
+		#Atext {
+			margin-left: 4%;
 		}
 	</style>
 
 </head>
 
 <body>
-
-	<!-- 
-        Bootstrap and Jquery CDNS applied
-	 -->
-
-	<!-- <div class="container" id = "display"> -->
-
-
 
 	<nav class="navbar right navbar-dark">
 		<div class='container'>
@@ -167,6 +175,20 @@
 					<hr>
 				</ul>
 			</div>
+		</div>
+	</div>
+
+	<div class="container" id="serviceInfo">
+		<div class="bmenu">
+			<br>
+			
+			
+			<div id="Atext">
+				<h1>Do You Need A Web App Solution?</h1>
+				<a href="contact.html">Submit A Request!</a>
+				<p>All Web Sites And Applications Built From The Ground Up.</p>
+			</div>
+			<br>
 		</div>
 	</div>
 
