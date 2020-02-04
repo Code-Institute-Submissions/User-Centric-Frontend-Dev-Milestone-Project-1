@@ -95,7 +95,7 @@ nav a {
     color: rgb(255, 255, 255);
 }
 
-/* HeaderSection --------------------------------------------------------------------------------------------- */
+/* indexHeaderSection --------------------------------------------------------------------------------------------- */
 .masthead {
     /* color: rgb(255, 255, 255); */
     /* background-color: blanchedalmond; */
@@ -135,7 +135,7 @@ button a {
 
 }
 
-/* Fullstack Marketing Section --------------------------------------------------------------------------------- */
+/* indexFullstack Marketing Section --------------------------------------------------------------------------------- */
 
 #fullBG-marketing {
     /* background-image: url("assets/images/b.jpg"); */
@@ -170,7 +170,7 @@ button a {
     background-repeat: no-repeat;
 }
 
-/* FullstackSection ------------------------------------------------------------------------------------------ */
+/* indexFullstackSection ------------------------------------------------------------------------------------------ */
 .FullStackCard img {
     width: 300px;
     height: 300px;
@@ -228,6 +228,84 @@ button a {
     background: url('assets/images/bg2.png') no-repeat center center;
     height: 100%;
     border-radius: 25%;
+}
+
+/* Contact Form -------------------------------------------------------------------------------------------- */
+
+.input-group  {
+    margin: 0 auto;
+    
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.center-form {
+    /* width: 70%; */
+    margin: 0 auto;
+}
+textarea.form-control {
+    color: rgb(255, 255, 255);
+}
+
+input.form-control {
+    color: rgb(255, 255, 255);
+}
+
+.form-content {
+    padding: 10%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.523);
+    color: rgb(0, 0, 0);   
+}
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+h5 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+
+.form-control {
+    border-radius: 1.5rem;
+}
+
+.btnSubmit {
+    margin-left: 40%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    /* background: #d5be0ddd; */
+    color: #fff;
+
+}
+
+#sbtbtn {
+
+    
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+
+}
+.note {
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #fff700b5, #0c347851);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 80px;
 }
 
 

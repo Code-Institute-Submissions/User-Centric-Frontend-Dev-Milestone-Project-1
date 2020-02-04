@@ -226,14 +226,14 @@ input.form-control {
 
 }
 
-#sbtbtn {
+/* #sbtbtn {
 
     background-color: rgba(228, 191, 40, 0.215);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: xx-large;
     text-align: center;
 
-}
+} */
 .note {
     text-align: center;
     height: 80px;
