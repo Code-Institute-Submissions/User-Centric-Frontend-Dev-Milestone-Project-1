@@ -1,7 +1,9 @@
-# User-Centric-Project
-User Centric Frontend Development Milestone Project
+# Miguel Camacho Portfolio - Fullstack Web Develoment 
+User Centric Frontend Development Milestone Project - Code Institute
 ```
 Miguel Camacho-salesPITCH
+
+This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
 ```
 ## UX
  
