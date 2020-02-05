@@ -2,7 +2,13 @@
 User Centric Frontend Development Milestone Project - Code Institute
 #  { MAC | media } - Company Portfolio
 ```
-MAC|media Company website presents company services to prospective clients. This website showcases five company services covering a range of Information Technology aeras. Custom built static front-end site main navagition menue and structured layout accomplished via Bootstrap. Code written in HTML and styled with CSS. The contact.html page features a form, all data is sent to my email using EmailJS and some JavaScript.
+MAC|media Company website presents company services to prospective clients.
+This website showcases five company services covering a range
+of Information Technology aeras. Custom built static front-end
+site main navagition menue and structured layout accomplished 
+via Bootstrap. Code written in HTML and styled with CSS. 
+The contact.html page features a form, all data is sent to my email
+using EmailJS and some JavaScript.
 ```
 ## UX
 ### CUSTOMER STORIES
