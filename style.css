@@ -2,58 +2,9 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    /* background-image: url("bg.png");     */
-    /* background-color: rgba(28, 35, 16, 0.233); */
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    
-}
-svg{
-    width: 300px;
-    height: 300px;
-}
-iframe {
-    width: 100%;
-    height: 350px;
-}
-
-#display{
-    width: 100%;
-}
-
-.container {
-    /* width: 100%; */
-    /* height: 25%; */
-}
-
-.bg-fullstack {
-    /* background-color: rgba(194, 186, 186, 0.057); */
-    background-color: rgba(176, 143, 11, 0.133);
-    
-}
-
-.fullstackSec {
-    
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-    
-}
-
-.FullStackCard {
-    background-color: rgba(0, 0, 0, 0.194);
-}
-
-.masthead {
-    background-image: url("assets/images/bg1.png");    
-    /* background-image: url("bg1.png");     */
-    padding-top: 10%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 nav{
@@ -63,7 +14,7 @@ nav{
 }
 .navbar-brand {
     /* background-color: rgba(228, 190, 40, 0.804); */
-    color:rgba(228, 190, 40, 0.804);
+    /* color:rgba(228, 190, 40, 0.804); */
 
     
 }
@@ -74,7 +25,7 @@ nav.navbar-dark {
     
 }
 .navbar-toggle{
-    background-color: rgba(228, 190, 40, 0.804);
+    /* background-color: rgba(228, 190, 40, 0.804); */
     
 }
 .navbar-nav {
@@ -82,258 +33,24 @@ nav.navbar-dark {
     /* padding-left: 50%; */
 }
 #myCollapsingList{
-    background-color: rgba(41, 41, 41, 0.098);
+    /* background-color: rgba(41, 41, 41, 0.098); */
+    background-color: rgba(60, 59, 59, 0.276);
     float: right;
 }
 .icon-bar{    
-    background-color: floralwhite;
+    background-color: rgb(255, 255, 255);
 }
 
 nav  a {
     font-size: large;
-    text-decoration: none;
-    /* color: rgba(255, 250, 240, 0.283); */
-    color: floralwhite;
-}
-
-button a {
-    color: white;
-}
-
-p ~ h5 {
-    
-    margin: 2%;
-}
-
-
-
-.heroText {
-    color: white;
-    text-align: center;
-    font-size: 4em;
-}
-#heroBtn {
-    /* color: rgba(255, 250, 240, 0.283); */
-    /* background-color: rgba(228, 191, 40, 0.215); */
-    background-color: rgba(228, 190, 40, 0.804);
-    color: white;
-    /* font-size: large; */
-    text-align: center;
-    
-    
-}
-
-/* ABOUT section ------------------------------------------------------------------------------------------------------------ */
-.sec-about{
-    background-color: white;
-    /* height: 100px; */
-}
-.sec-projects{
-    /* background-color: white; */
-    /* height: 50px; */
-}
-
-
-/* scs-center-about-CONTENT ------------------------- */
-#scs-center-about{    
-    padding-top: 30px;
-    /* width: 33%; */
-    margin: 0 auto;    
-    padding-bottom: 30px;
-    background-image: url("assets/images/bg2.png");
-}
-
-/* 
-                scs-center-about-CONTENT                            
------------------------------------------------------
-*/
-#scs-center-circle-container {
-    width: 250px;
-    height: 250px;
-    /* padding: 30px; */
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    background: url('assets/images/bg2.png') no-repeat center center;   
-}
-
-#scs-center-circle-cover-bg {
-    background: url('assets/images/bg2.png') no-repeat center center;   
-    height: 100%; 
-    border-radius: 50%;
-}
-.FullStackCard img{
-    width: 300px;
-    height: 300px;
-}
-
-
-/* 
-                form-CONTACT                            
------------------------------------------------------
-*/
-
-.input-group  {
-    margin: 0 auto;
-    
-}
-
-.form-control {
-    background-color: rgba(0, 0, 0, 0.235);
-}
-
-.form {
-    /* width: 70%; */
-    margin: 0 auto;
-    
-}
-
-.center-form {
-    /* width: 70%; */
-    margin: 0 auto;
-}
-textarea.form-control {
+    text-decoration: none;    
     color: rgb(255, 255, 255);
 }
 
-input.form-control {
-    color: rgb(255, 255, 255);
-}
+/* Services -------------------------------------------------------------------------------------------------------- */
 
-.form-content {
-    padding: 5%;
-    border: 1px solid #ced4da;
-    margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.523);
-    color: rgb(255, 255, 255);
-}
-
-.form-control {
-    border-radius: 1.5rem;
-}
-
-.btnSubmit {
-    margin-left: 40%;
-    border: none;
-    border-radius: 1.5rem;
-    padding: 1%;
-    width: 20%;
-    cursor: pointer;
-    background: #d5be0ddd;
-    color: #fff;
-
-}
-
-/* #sbtbtn {
-
-    background-color: rgba(228, 191, 40, 0.215);
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-    text-align: center;
-
-} */
-.note {
-    text-align: center;
-    height: 80px;
-    background: -webkit-linear-gradient(left, #fff700b5, #0c347851);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 80px;
-}
-
-
-/* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-@media (max-width: 575px) {
-    nav.navbar-dark {
-        /* background-color: rgba(0, 0, 0, 0.119); */
-        /* background-color: rgb(0, 0, 0); */
-
-        
-    }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .heroText {
-        margin-top: 10%;
-        /* margin-bottom: 10%; */
-        /* padding-bottom: 25%; */
-    }
-    .navbar-nav {
-        /* background-color: red; */
-        /* padding-left: 20%; */
-    }
-
-    /* .form {
-        margin: 0 auto;
-        
-    }
-
-    .center-form {
-
-        margin: 0 auto;
-    } */
-    
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .heroText {
-        font-size: 6em;
-        margin-top: 5%;
-    }
-    .masthead {
-        padding-top: 40%;
-    }
-   
-    #heroBtn {
-        
-        background-color: rgba(228, 191, 40, 0.215);
-        color: white;
-        font-size: xx-large;
-        text-align: center;
-        
-    }
-    .navbar-nav {
-        /* background-color: red; */
-        /* padding-left: 20%; */
-    }
- }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    .navbar-nav {
-        /* background-color: red; */
-        /* padding-left: 50%; */
-        
-    }
-    .masthead {
-        padding-top: 5%;
-    }
-    .heroText {
-        font-size: 6em;
-        margin-top: 30%;
-    }
- }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .heroText {
-        font-size: 8em;
-        margin-top: 20%;
-        /* margin-bottom: 10%; */
-        padding-bottom: 10%;
-    }
-    .masthead {
-        padding-top: 5%;
-    }
-
- }
-
-
+/* Services LOGOs -------------------------------------------------------------------------------------------------------- */
+/* Services WebSite Overhauls -------------------------------------------------------------------------------------------------------- */
+/* Services WebApp Develoment -------------------------------------------------------------------------------------------------------- */
+/* Services Full Deployments -------------------------------------------------------------------------------------------------------- */
+/* Services Computer Repair -------------------------------------------------------------------------------------------------------- */
