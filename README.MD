@@ -87,5 +87,5 @@ To get this project up and running on your local mechine open Teriminal and past
 - The D3 charts for the landing page were copied from [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 ## Credits
 ### Acknowledgements
-- I received inspiration for this project from X
+- I aquired all web develoment skills via [](https://codeinstitute.net)
 
