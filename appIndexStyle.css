@@ -50,14 +50,12 @@ iframe {
 
 /* Nav ------------------------------------------------------------------------------------------------------- */
 nav {
-    /* background-color: rgba(255, 255, 255, 0.701); */
-    /* color: white; */
-
+    /* background-color: rgba(255, 255, 255, 0.701);     */
 }
 
 .navbar-brand {
-    /* background-color: rgba(228, 190, 40, 0.804); */
-    /* color:rgba(228, 190, 40, 0.804); */
+    /* background-color: rgba(49, 4, 63, 0.804); */
+    color: rgba(168, 247, 23, 0.973);
 
 
 }
@@ -71,6 +69,7 @@ nav.navbar-dark {
 
 .navbar-toggle {
     /* background-color: rgba(228, 190, 40, 0.804); */
+    color: rgba(168, 247, 23, 0.973);
 
 }
 
@@ -92,7 +91,7 @@ nav a {
     font-size: large;
     text-decoration: none;
     /* color: rgba(255, 250, 240, 0.283); */
-    color: rgb(255, 255, 255);
+    color: rgba(168, 247, 23, 0.973);
 }
 
 /* indexHeaderSection --------------------------------------------------------------------------------------------- */
@@ -109,7 +108,7 @@ nav a {
 }
 
 button a {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 
 }
 
@@ -261,10 +260,10 @@ input.form-control {
 }
 
 .form-content {
-    padding: 10%;
+    padding: 5%;
     border: 1px solid #ced4da;
     margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.523);
+    background-color: rgba(0, 0, 0, 0.63);
     color: rgb(0, 0, 0);   
 }
 h3 {
@@ -295,15 +294,16 @@ h5 {
 #sbtbtn {
 
     
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
+    color: rgba(168, 247, 23, 0.973);
+    background-color: rgba(0, 0, 0, 0.637);
+    font-size: x-large;
     text-align: center;
 
 }
 .note {
     text-align: center;
     height: 80px;
-    background: -webkit-linear-gradient(left, #fff700b5, #0c347851);
+    background: -webkit-linear-gradient(left, #fff700b5, #4b0347a4);
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 80px;
