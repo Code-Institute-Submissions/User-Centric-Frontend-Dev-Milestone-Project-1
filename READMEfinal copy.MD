@@ -1,15 +1,3 @@
-# Haley Schafer Portfolio
-Stream One Project: User-Centric Frontend Development - Code Institute 
-
-This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
-
-
-## Demo
-A live demo can be found [here](https://www.haleyschafer.com/).
-
-![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/assets/images/portfolioview.gif "Desktop Demo")
-
-
 ## UX
 
 ### User stories
@@ -93,3 +81,10 @@ The progress circles from the skills section are modeled after the following Sta
 The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
 
 **This is for educational use.** 
+
+timing- current need
+team-get them on board
+idea-have model
+biz model-excute model
+funding
+adapt-got a plan till your punched in the face

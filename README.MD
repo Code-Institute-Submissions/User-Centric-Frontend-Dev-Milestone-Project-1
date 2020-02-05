@@ -1,39 +1,43 @@
-# Miguel Camacho Portfolio - Fullstack Web Develoment 
+# Miguel Camacho
 User Centric Frontend Development Milestone Project - Code Institute
+#  { MAC | media } - Company Portfolio
 ```
-Miguel Camacho-salesPITCH
-
-This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
+MAC|media Company website presents company services to prospective clients. This website showcases five company services covering a range of Information Technology aeras. Custom built static front-end site main navagition menue and structured layout accomplished via Bootstrap. Code written in HTML and styled with CSS. The contact.html page features a form, all data is sent to my email using EmailJS and some JavaScript.
 ```
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### CUSTOMER STORIES
+- As a customer I expect to see a systemitic approach to display services offered with proof the service will handeled by a proffessional. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+![Services Showcased](https://raw.githubusercontent.com/Services.png "service")
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As a customer I expect to be able to submit a request for a service.
 
-## Features
+![Services Showcased](https://raw.githubusercontent.com/Contact.png "contact")
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### SKELETON 
+![Services Showcased](https://raw.githubusercontent.com/Contact.png "contact")
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### WIREFRAMES
+- www.link.com 
+### STRAGTEGY
+- Produce a modern minimalistic user-friendly website allowing the company to display serverces aviable to protntial clients.
+### SCOPE
+- For Customers, my goal was to simply present the company marketing in the landing page and provide a set list of servises aviable seperate from that allowing the customer to submut a request for a given service.
+### STRUCTURE
+- Main navagition throughout web page
+    - HomePage company overview
+    - ServeciesPage displays company services
+    - ContactPage renders form to submit service requests via email
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### SURFACE
+Dark color scheme accumpined by suddel hints of a vibrent lime green were chosent to produce a sleek modern look and feel.
 
-### Features Left to Implement
-- Another feature idea
-
+## Technologies
+    1. HTML
+    2. CSS
+    3. BootStrap
+    4. JavaScript
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-
 
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
@@ -41,6 +45,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+
+## Features
+The Fullstack section of the landing page features a D3 chart that I aqueried online and modified for use in my project. To seprate this code from my own I rendered the charts in seperate html pages and styled with embedded CSS and displaned in there own iFrames.
+ 
+### Contact Page Features
+- ContactPage - allows customers to submit a service request, by filling out the contact form
+- ContactPage Submit - submits all form details to me via email
 
 ## Testing
 
@@ -61,34 +72,20 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
-
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
-
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com), The internet’s source of freely usable images. All rights reserved view [License](https://unsplash.com/license).
+- Photos Croped then texted applied then effects were applied to keep the dark theme and overall structure and scope of the project.
+## Deployment
+Website hosted via GitHub pages, all commits to that repository will automatically update the deployed site on Heroku. To display in gitHub pages landing page must be named `index.html`.
 ## Contributing
- 
 ### Getting the code up and running
   ```
   clone https://github.com/MACmidiDEV/User-Centric-Project.git
   ```  
+To get this project up and running on your local mechine open Teriminal and paste the command `git clone https://.git` into your terminal, when finished just type `git remote rm origin` into your terminal. Or visit www.git.com to directly download the source code.
+- The D3 charts for the landing page were copied from [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+## Credits
+### Acknowledgements
+- I received inspiration for this project from X
+
