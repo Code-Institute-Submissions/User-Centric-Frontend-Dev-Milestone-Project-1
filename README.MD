@@ -8,17 +8,16 @@ MAC|media Company website presents company services to prospective clients. This
 ### CUSTOMER STORIES
 - As a customer I expect to see a systemitic approach to display services offered with proof the service will handeled by a proffessional. 
 
-![Services Showcased](https://raw.githubusercontent.com/Services.png "service")
+![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ServiceShowcase.png?raw=true "proof of services")
 
 - As a customer I expect to be able to submit a request for a service.
 
-![Services Showcased](https://raw.githubusercontent.com/Contact.png "contact")
+![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ContactShowcase.png?raw=true "proof of requests")
 
 ### SKELETON 
-![Services Showcased](https://raw.githubusercontent.com/Contact.png "contact")
-
 ### WIREFRAMES
-- www.link.com 
+![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/WireFrames.png?raw=true "wireframes")
+
 ### STRAGTEGY
 - Produce a modern minimalistic user-friendly website allowing the company to display serverces aviable to protntial clients.
 ### SCOPE
