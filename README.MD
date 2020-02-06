@@ -58,9 +58,9 @@ Dark color scheme accumpined by suddel hints of a vibrent lime green were chosen
 The Fullstack section of the landing page features a D3 chart that I aqueried online and modified for use in my project. To seprate this code from my own I rendered the charts in seperate html pages and styled with embedded CSS and displaned in there own iFrames.
 
 ### FAVicon
-![FAVicon Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/FAVicon.png?raw=true "FAVicon")
+![FAVicon Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/FAVicons.png?raw=true "FAVicon")
 ### iMessage image link
-![iMessage Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/iMessage.png?raw=true "iMessage")
+![iMessage Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/iMessageLink.png?raw=true "iMessage")
 
 ### Features Left to Implement
 Future vision for this project would be to expand on the services section add more detaild information to services provided. Also add pricing to the services. Finialy I whould create a social media presence for Company - { MAC|media } and launch a marketing campagin to aquire direct leads to potential clients or employers.
