@@ -1,7 +1,10 @@
 # Miguel Camacho
-User Centric Frontend Development 
-Milestone Project - Code Institute
-#  { MAC | media } - Company Portfolio
+
+User Centric Frontend 
+Development Milestone Project
+ - Code Institute
+
+#  { MAC | media } Company Portfolio
 ```
 MAC|media Company website presents company services to prospective clients.
 This website showcases five company services covering a range
@@ -11,7 +14,9 @@ via Bootstrap. Code written in HTML and styled with CSS.
 The contact.html page features a form, all data is sent to my email
 using EmailJS and some JavaScript.
 ```
+
 ## UX
+
 ### CUSTOMER STORIES
 - As a customer I expect to see a systemitic approach to display services offered with proof the service will handeled by a proffessional. 
 
@@ -22,13 +27,16 @@ using EmailJS and some JavaScript.
 ![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ContactShowcase.png?raw=true "proof of requests")
 
 ### SKELETON 
+
 ### WIREFRAMES
 ![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/WireFrames.png?raw=true "wireframes")
 
 ### STRAGTEGY
 - Produce a modern minimalistic user-friendly website allowing the company to display serverces aviable to protntial clients.
+
 ### SCOPE
 - For Customers, my goal was to simply present the company marketing in the landing page and provide a set list of servises aviable seperate from that allowing the customer to submut a request for a given service.
+
 ### STRUCTURE
 - Main navagition throughout web page
     - HomePage company overview
@@ -43,8 +51,8 @@ Dark color scheme accumpined by suddel hints of a vibrent lime green were chosen
     2. CSS
     3. BootStrap
     4. JavaScript
-## Technologies Used
 
+## Technologies Used
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
 
@@ -74,14 +82,18 @@ Tested across multiple browers Chrome, Safari, Internet Explorer and FireFox.
 Tested on multiple mobile devices iPhone 4, 5, 7, 11, iPad, Apple IOS and Andriod.
 - All to ensure compatibility and responsiveness
 
-
 ### Content
+
 ### Media
 - The photos used in this site were obtained from [Unsplash](https://unsplash.com), The internet’s source of freely usable images. All rights reserved view [License](https://unsplash.com/license).
+
 - Photos Croped then texted applied then effects were applied to keep the dark theme and overall structure and scope of the project.
+
 ## Deployment
 Website hosted via GitHub pages, all commits to that repository will automatically update the deployed site on Heroku. To display in gitHub pages landing page must be named `index.html`.
+
 ## Contributing
+
 ### Getting the code up and running
   ```
   clone https://github.com/MACmidiDEV/User-Centric-Project.git
@@ -89,8 +101,9 @@ Website hosted via GitHub pages, all commits to that repository will automatical
 To get this project up and running on your local mechine open Teriminal and paste the command `git clone https://.git` into your terminal, when finished just type `git remote rm origin` into your terminal. Or visit www.git.com to directly download the source code.
 
 ## Credits
-- The D3 charts for the landing page were copied from [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The D3 charts for the landing page were creating by putting together peices from the following resource of tutorials [Learn D3.JS simply easy learning](https://www.tutorialspoint.com/d3js/index.htm)
+
 
 ### Acknowledgements
-- I aquired all web develoment skills via [](https://codeinstitute.net)
+- I aquired all web develoment skills via [Code Insitute](https://codeinstitute.net)
 
