@@ -60,7 +60,7 @@ Dark color scheme accompanied by hints of a vibrant lime green were chosen to pr
     - Contact page uses **EmailJS** to forward forms submitted for a service request.
 
 ## Features
-The FullStack section of the landing page features a D3 chart that I acquired online and modified for use in my project. To separate this code from my own I rendered the charts in separate html pages and styled with embedded CSS and displayed in they’re own iFrames.
+The FullStack section of the landing page features a D3 chart that I acquired online and modified for use in my project. To separate this code from my own I rendered the charts in separate html pages and styled with embedded CSS and displayed in their own iFrames. FAVicon and iMessage image link were added to produce a professional look.
 
 ### FAVicon
 
