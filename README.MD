@@ -99,7 +99,7 @@ Website hosted via GitHub pages, all commits too that repository will automatica
   ```  
 To get this project up and running on your local machine open Terminal and paste the command
 `git clone https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project.git` 
-into your terminal, when finished type `git remote rm origin` into your terminal. Or visit www.git.com to directly download the source code.
+into your terminal, when finished type `git remote rm origin` into your terminal. Or visit https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project to directly download the source code.
 
 ## Credits
 - The D3 charts from the landing page were creating by putting together pieces from the following resource of tutorials [Learn D3.JS simply easy learning](https://www.tutorialspoint.com/d3js/index.htm)
