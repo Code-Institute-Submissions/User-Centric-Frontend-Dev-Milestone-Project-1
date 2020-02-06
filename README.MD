@@ -58,7 +58,7 @@ Dark color scheme accumpined by suddel hints of a vibrent lime green were chosen
 The Fullstack section of the landing page features a D3 chart that I aqueried online and modified for use in my project. To seprate this code from my own I rendered the charts in seperate html pages and styled with embedded CSS and displaned in there own iFrames.
 
 ### FAVicon
-![FAVicon Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/WireFrames.png?raw=true "FAVicon")
+![FAVicon Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/FAVicon.png?raw=true "FAVicon")
 ### iMessage image link
 ![iMessage Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/iMessage.png?raw=true "iMessage")
 
@@ -89,8 +89,11 @@ Website hosted via GitHub pages, all commits to that repository will automatical
 To get this project up and running on your local mechine open Teriminal and paste the command `git clone https://.git` into your terminal, when finished just type `git remote rm origin` into your terminal. Or visit www.git.com to directly download the source code.
 
 ## Credits
-- The D3 charts for the landing page were copied from [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The D3 charts from the landing page were creating by putting together peices from the following resource of tutorials [Learn D3.JS simply easy learning](https://www.tutorialspoint.com/d3js/index.htm)
+
 
 ### Acknowledgements
-- I aquired all web develoment skills via [](https://codeinstitute.net)
+- I aquired all web develoment skills via [Code Insitute](https://codeinstitute.net)
+
+
 
