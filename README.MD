@@ -81,6 +81,11 @@ Future vision for this project would be to expand on the services section add mo
 Tested across multiple browsers Chrome, Safari, Internet Explorer and FireFox.
 Tested on multiple mobile devices iPhone 4, 5, 7, 11, iPad, Apple IOS and Android.
 - All to ensure compatibility and responsiveness
+    - [Responsinator](http://www.responsinator.com/)
+
+- Html and css vialidated.
+    - [W3C HTML validated](https://validator.w3.org/)
+    - [W3C CSS validated](https://jigsaw.w3.org/css-validator/)    
 
 ### Content
 
@@ -89,7 +94,8 @@ Tested on multiple mobile devices iPhone 4, 5, 7, 11, iPad, Apple IOS and Androi
 - Photos cropped and texted applied  effects were also applied to keep the dark theme and overall structure and scope of the project.
 
 ## Deployment
-Website hosted via GitHub pages, all commits too that repository will automatically update the deployed site on Heroku. To display in gitHub pages landing page must be named `index.html`.
+Website hosted via GitHub pages, all commits too that repository will automatically update the deployed site on GitPages. To display in gitHub pages landing page must be named `index.html`.
+    - [LIVE website](https://macmididev.github.io/User-Centric-Frontend-Dev-Milestone-Project/)
 
 ## Contributing
 
