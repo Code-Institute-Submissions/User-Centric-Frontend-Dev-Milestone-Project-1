@@ -54,7 +54,8 @@ nav  a {
 
 .bmenu {
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.486);
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    background-color: rgba(65, 2, 46, 0.541);
     text-decoration: none;
     text-decoration-line: none;
     /* width: fit-content; */
