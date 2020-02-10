@@ -12,153 +12,74 @@
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  -->
-	<!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   -->
+	<link rel="stylesheet" href="assets/css/github-styles.css">
 	<link rel="stylesheet" href="appIndexStyle.css">
-	<!-- <link rel="stylesheet" href="mystyle.css"> -->
+
+	<!-- FAVicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="fav/site.webmanifest">
+
+	<!-- iMessage smsImage Display -->
+	<meta property="og:title" content="{ MAC|media } User Centric Frontend Project" />
+	<meta property="og:image" content="x.png" />
 
 </head>
 
 <body>
 
-	<!-- 
-        Bootstrap and Jquery CDNS applied
-	 -->
+	<!-- Main Nav & Header display -->
 
-	<!-- <div class="container" id = "display"> -->
+	<div id="display">
+	<!-- All-Pages Nav -->
+	<nav class="navbar right navbar-dark">
+		<div id="navBG">
+			<div class="nav navbar-header ">
 
-		<nav class="navbar right navbar-dark">
+				<a class="navbar-brand " href="index.html">{ M|m }</a>
+
+				<button type="button" class="navbar-toggle right" data-toggle="collapse"
+					data-target="#myCollapsingList">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">			
+
+				<li><a class="active" href="services.html">Services</a></li>
+				<li><a href="index.html#bg-fullstack">Skills</a></li>
+				<li><a href="#fullBG-marketing">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<!-- <br> -->
+				<!-- <img src="assets/images/mLog1.png" class="i" alt=""/>				 -->
+
+			</ul>
+		</div>
+	</nav>
+
+	
+		<!-- Landing Page Main Heading -->
+		<header class="masthead">
 			<div class='container'>
-				<div class="nav navbar-header ">
-					
-					<a class="navbar-brand " href="index.html">{ M|m }</a>
-	
-					<button type="button" class="navbar-toggle right" data-toggle="collapse"
-						data-target="#myCollapsingList">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-	
-					</button>
-				</div>
-				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-					<li><a class="active" href="services.html">Services</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-
-
-
-	<header class="masthead">
-		<div class='container'>
-			<div class="row">
-				<div class="heroText">
-					<h1>MACmedia</h1>
-					<h6>Software Solutions</h6>
-					<p> { M|m } </p>
-					<button class="btn btn-large" id="heroBtn">
-						<a href="serviceWebApp.html">View More</a>
-					</button>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<hr>
-
-
-
-
-
-
-	<!-- About Section -->
-
-
-	<div class="container bg-fullstack">
-		<div class="row">
-			<div class="col-12 fullstackSec">
-				<hr>
-				<h1>FullStack Web Developer</h1>
-				<p>
-					<h5>
-						Full Stack Developers work seamlessly across all layers of software. They are “broader picture”
-						developers who are aware of the server side as well as the client side’s user experience. In
-						fact, they are a balanced amalgamation of front-end and back-end skills.
-						Full Stack Developers handle everything from Frontend Development to Backend Development to
-						Backend Server Management, as a part of their job role and responsibilities. Thus, organizations
-						are employing full stack developers to grow and expand their digital assets.
-					</h5>
-					<hr>
-
-				</p>
-
-				<div class="col-sm-4 FullStackCard">
-					<h2>Frontend Development</h2>
-					<p>"the visible parts of a website or app"</p><br>
-					<hr>
-					<iframe src="iFrameFront.html" frameborder="1"></iframe>
-
-				</div>
-				<div class="col-sm-4 FullStackCard">
-
-					<h2>Backend Development</h2>
-					<p>'the “under the hood” databases and infrastructure'</p><br>
-					<hr>
-					<iframe src="iFrameBack.html" frameborder="1"></iframe>
-				</div>
-
-				<div class="col-sm-4 FullStackCard">
-
-					<h2>FullStack Development</h2>
-					<p style="margin-bottom: 30px;">FullStack can apply to a web stack, mobile stack, or a native
-						application stack </p>
-					<hr>
-					<iframe src="iFrameFull.html" frameborder="1"></iframe>
-				</div>
-
-			</div>
-		</div>
-		<hr>
-	</div>
-	<hr>
-
-
-
-
-
-
-
-
-
-	<!-- Projects Section -->
-	<div>
-		<section class="sec-about">
-			<div class="container">
 				<div class="row">
-					<div class="col-12">
-
-						<h1>MAC</h1>
+					<div class="heroText">
+						<h1>MACmedia</h1>
+						<h6>Software Solutions</h6>
+						<p> { M|m } </p>
+						<button class="btn btn-large" id="heroBtn">
+							<a href="serviceCompRp.html">View More</a>
+						</button>
 					</div>
 				</div>
 			</div>
-		</section>
+		</header>
+
 	</div>
-
-	<div id="scs-center-about">
-		<div id="scs-center-circle-container">
-			<div id="scs-center-circle-cover-bg"></div>
-		</div>
-	</div>
-
-
-	<!-- </div> -->
-
-
-
+	<!-- Main Nav & Header display
+	_END -->
 
 
 

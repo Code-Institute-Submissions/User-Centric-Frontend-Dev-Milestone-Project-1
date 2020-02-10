@@ -17,8 +17,7 @@
 
 	<style>
 		html {
-			/* background-image: url("assets/images/mLog12"); */
-			background-color: rgba(255, 255, 255, 0);
+			background-color: rgba(99, 8, 99, 0.274);
 		}
 		body { 
 			background-color: rgba(255, 255, 255, 0);
@@ -26,6 +25,64 @@
 		  font-size: 12px;
 		  margin: 0;		
 		}
+		#vis {
+			/* margin-left: 2.5%; */
+		}
+		#viz {
+			object-position: center;
+		}
+		#cont {
+			/* padding-left: 15%; */
+			/* margin-top: -10px; */
+		}
+
+
+		/* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 475px) {
+    #viz {
+        display: none;
+        /* padding-left: 10px; */
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #viz {
+        display: none;
+        /* padding-left: 30%; */
+        /* background-color: cyan; */
+        /* overflow: hidden; */
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #vis {
+        /* display: none; */
+        
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #vis {
+        display: none;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #viz {
+        display: none;
+        background-color: cyan;
+    }
+}
+
 	  </style>
 
 
@@ -35,8 +92,8 @@
 
 
 
-<div class="container">		
-	<br><hr><br>
+<div class="container" id="cont">		
+	<!-- <br><hr><br> -->
 	<div id = 'vis'></div>
 </div>	
 
@@ -44,8 +101,8 @@
 <script>
 	// bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 	function bubbleChart() {
-	  const width = 275;
-	  const height = 200;
+		const width = 360;
+	  const height = 440;
 	
 	  // location to centre the bubbles
 	  const centre = { x: width/2, y: height/2 };
