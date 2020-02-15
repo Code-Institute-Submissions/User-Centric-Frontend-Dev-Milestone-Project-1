@@ -1,14 +1,13 @@
 id,groupid,size
 CSS,3,5
-HTML,2,40
+HTML,2,20
 JavaScript,1,25
-Frameworks,3,30
-VersionControl,2,40
-Testing,1,25
-Responsive,3,50
-DevTools,2,4
+Frameworks,3,10
+Testing,1,5
+Responsive,3,25
+DevTools,2,14
 Jquery,1,25
 SCSS,3,5
 DOM,2,4
-CMS,1,25
+CMS,1,8
 

@@ -16,8 +16,10 @@
 	<script src='https://d3js.org/d3.v5.min.js'></script>
 
 	<style>
-		html {
-			background-color: rgba(99, 8, 99, 0.274);
+		html {			
+			background-image: url("assets/images/bbg2.png");
+			background-position: center;
+			background-color: rgba(255, 255, 255, 0);
 		}
 		body { 
 			background-color: rgba(255, 255, 255, 0);
@@ -25,64 +27,6 @@
 		  font-size: 12px;
 		  margin: 0;		
 		}
-		#vis {
-			/* margin-left: 2.5%; */
-		}
-		#viz {
-			object-position: center;
-		}
-		#cont {
-			/* padding-left: 15%; */
-			/* margin-top: -10px; */
-		}
-
-
-		/* Screen Adjusments ------------------------------------------------------------------------------------------------------------ */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-@media (max-width: 475px) {
-    #viz {
-        display: none;
-        /* padding-left: 10px; */
-    }
-
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    #vis {
-        /* display: none; */
-        padding-left: 15%;
-        /* background-color: cyan; */
-        /* overflow: hidden; */
-    }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #vis {
-        /* display: none; */
-        
-    }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    #vis {
-        display: none;
-    }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    #viz {
-        display: none;
-        background-color: cyan;
-    }
-}
-
 	  </style>
 
 
@@ -92,8 +36,7 @@
 
 
 
-<div class="container" id="cont">		
-	<!-- <br><hr><br> -->
+<div class="container">			
 	<div id = 'vis'></div>
 </div>	
 
@@ -101,8 +44,8 @@
 <script>
 	// bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 	function bubbleChart() {
-		const width = 360;
-	  const height = 440;
+	    const width = 380;
+	  const height = 335;
 	
 	  // location to centre the bubbles
 	  const centre = { x: width/2, y: height/2 };
@@ -135,7 +78,7 @@
 	  // set up colour scale
 	  const fillColour = d3.scaleOrdinal()
 		  .domain(["1", "2", "3", "5", "99"])
-		  .range(["#0074D9", "#7FDBFF", "#39CCCC", "#3D9970", "#AAAAAA"]);
+		  .range(["#9fd74e", "#9fd74ea6", "#9fd74e3b", "#9fd74e69", "#9fd74e3b;"]);
 	
 	  // data manipulation function takes raw data from csv and converts it into an array of node objects
 	  // each node will store data and visualisation values to draw a bubble
@@ -149,15 +92,15 @@
 		// size bubbles based on area
 		const radiusScale = d3.scaleSqrt()
 		  .domain([0, maxSize])
-		  .range([0, 80])
+		  .range([0, 48])
 	
 		// use map() to convert raw data into node data
 		const myNodes = rawData.map(d => ({
 		  ...d,
 		  radius: radiusScale(+d.size),
 		  size: +d.size,
-		  x: Math.random() * 900,
-		  y: Math.random() * 800
+		  x: Math.random() * 50,
+		  y: Math.random() * 100
 		}))
 	
 		return myNodes;

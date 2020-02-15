@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
 	<link rel="stylesheet" href="assets/css/github-styles.css">
-	<link rel="stylesheet" href="appIndexStyle.css">
+	<!-- <link rel="stylesheet" href="appIndex.css"> -->
+	<!-- <link rel="stylesheet" href="indexstyle.css"> -->
+	<link rel="stylesheet" href="indexstyle.css">
 
 	<!-- FAVicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -28,46 +30,44 @@
 </head>
 
 <body>
-
-	<!-- Main Nav & Header display -->
-
+<!-- Main Nav & Header display -->
 	<div id="display">
-	<!-- All-Pages Nav -->
-	<nav class="navbar right navbar-dark">
-		<div id="navBG">
-			<div class="nav navbar-header ">
 
-				<a class="navbar-brand " href="index.html">{ M|m }</a>
+		<!-- Global Site Navagation -->
+		<nav class="navbar right navbar-dark">
+			<div id="navBG">
+				<div class="nav navbar-header ">
+					<a class="navbar-brand " href="index.html">{ M|m }</a>
+					<button type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+ 
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
 
-				<button type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+					<li><a class="active" href="services.html">Services</a></li>
+					<li><a href="index.html#bg-fullstack">Skills</a></li>
+					<li><a href="#fullBG-marketing">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <br> -->
+					<!-- <img src="assets/images/mLog1.png" class="i" alt=""/>				 -->
+
+				</ul>
 			</div>
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">			
+		</nav>
 
-				<li><a class="active" href="services.html">Services</a></li>
-				<li><a href="index.html#bg-fullstack">Skills</a></li>
-				<li><a href="#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<!-- <br> -->
-				<!-- <img src="assets/images/mLog1.png" class="i" alt=""/>				 -->
 
-			</ul>
-		</div>
-	</nav>
-
-	
 		<!-- Landing Page Main Heading -->
 		<header class="masthead">
 			<div class='container'>
 				<div class="row">
 					<div class="heroText">
 						<h1>MACmedia</h1>
-						<h6>Software Solutions</h6>
+						<h5>Software Solutions</h5>
 						<p> { M|m } </p>
 						<button class="btn btn-large" id="heroBtn">
 							<a href="serviceCompRp.html">View More</a>
@@ -77,49 +77,51 @@
 			</div>
 		</header>
 
-	</div>
-	<!-- Main Nav & Header display
-	_END -->
+	</div><!-- Main Nav & Header display
+_END -->
 
-		<!-- Fullstack Section 2 - iFrames & D3 charts-->
-		<div class="contaner" id="bg-fullstack">
-			<div class="row">
-				<div class="col-12 fullstackSec">
-	
-	
-					<div class="col-sm-4 FullStackCard">
-						<h2>Frontend Development</h2>
-						<p>Visual designs of the website.</p>
-						<hr>
-						<iframe src="iFrameFront.html" frameborder="1" scrolling="no"></iframe>
-	
-					</div>
-					<div class="col-sm-4 FullStackCard" id="bkDev">
-	
-						<h2>Backend Development</h2>
-						<p>Databases and Infrastructure.</p><br>
-						<hr>
-						<iframe id="ifm"src="iFrameBack.html" frameborder="1"></iframe>
-					</div>
-	
-					<div class="col-sm-4 FullStackCard">
-	
-						<h2>FullStack Development</h2>
-						<p style="margin-bottom: 2px;">Skilled in all aeras of web stack.</p>
-						<hr>
-						<iframe src="iFrameFull.html" frameborder="1"></iframe>
-					</div>
-	
+<!-- iFrames & D3 charts Fullstack Section 1 --->	
+	<div class="container" id="sec-fullstack">
+		<div class="row">
+			<div class="col-12">
+
+
+				<div class="col-sm-4 d3_fullstack">
+					<h3>Frontend Development</h3>
+					<p>Visual designs of the website.</p>
+					
+					<iframe src="iFrameFront.html" scrolling="no"></iframe>
+
 				</div>
+
+				<div class="col-sm-4 d3_fullstack">
+
+					<h3>Backend Development</h3>
+					<p>Databases and Infrastructure.</p>
+										
+					<iframe id="d3iframe" src="iFrameBack.html" scrolling="no"></iframe>
+				</div>
+
+				<div class="col-sm-4 d3_fullstack">
+
+					<h3>FullStack Development</h3>
+					<p>Skilled in all aeras of web stack.</p>
+					
+					<iframe src="iFrameFull.html" scrolling="no"></iframe>
+				</div>
+
 			</div>
-			<br>
-		</div> <!-- Fullstack Section 2 _END -->
-	
+		</div>
 
+		
+		
+	</div> <!-- Fullstack Section 1 
+_END -->
 
-	<!-- Fullstack Marketing Section -->
+<!-- Fullstack Serveces Marketing Section 2 -->
 	<div class="container" id="fullBG-marketing">
 		<div class="row">
+
 			<div class="col-xs-12 col-md-6" id="fullBG-left">
 				<div class="col-xs-12 col-md-5">
 					<!-- <img src="assets/images/mLog12.png" class="img-responsive" alt=""/> <br>  -->
@@ -136,14 +138,18 @@
 
 					</h4>
 					<div class="links">
-						<p><a href="serviceLogo.html">Frontend Designs</a></p>
-						<p><a href="serviceWebApp.html">WebApps</a></p>
+						<p><br>
+							<a href="serviceLogo.html">Frontend Designs</a>
+								<br><br><br>
+							<a href="serviceWebApp.html">WebApps</a>
+						</p>
 					</div>
 
 
 
 				</div>
 			</div>
+
 			<div class="col-xs-12 col-md-6" id="fullBG-right">
 				<div class="col-xs-12 col-md-5">
 					<!-- <img src="assets/images/mLog12.png" class="img-responsive" alt=""/>  -->
@@ -158,27 +164,30 @@
 						</p>
 					</h4>
 					<div class="links">
-						<p>
+						<p><br>
 							<a href="serviceDply.html">Deployments</a>
-						</p>
-						<p>
+								<br><br><br>
 							<a href="serviceRedo.html">Web Designs</a>
 						</p>
 
 					</div>
 				</div>
 			</div>
+
 		</div>
 		<!--row-->
-	</div> <!-- Fullstack Marketing Section _END -->
+	</div> <!-- Fullstack Marketing Section 2
+_END -->
 
-
-	<!-- Branding Footer -->
+<!-- Branding Footer -->
 	<footer id="footer-background">
 		<div id="footer-container">
-			<div id="footer-brand-image"></div>
+			<div id="footer-brand-image">
+				<!-- <img src="assets/images/mLog12.png" class="img-responsive" alt=""/> -->
+			</div>
 		</div>
-	</footer> <!-- Branding Footer _END -->
+	</footer> <!-- Branding Footer 
+_END -->
 
 
 

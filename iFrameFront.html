@@ -17,86 +17,23 @@
 
 	<style>
 		html {
-			/* background-image: url("assets/images/bbg2.png"); */
-			background-color: rgba(99, 8, 99, 0.274);
+			background-image: url("assets/images/bbg2.png");
+			background-position: center;
+			/* background-color: rgba(132, 235, 15, 0.349); */
 		}
 		body { 
 			background-color: rgba(255, 255, 255, 0);
 		  font-family: "avenir next", Arial, sans-serif;
 		  font-size: 12px;
-		  margin: 5%;		
+		  margin: 0;		
 		}
 		#vis {
-			
-			
-			width: 100%;
+			/* width: 100%; */
 			/* height: 100%; */
-			/* margin-right: 20%; */
-			/* z-index: 5; */
-			/* margin-left: 2.5%; */
+			/* width: 325px;
+			height: 375px; */
+			margin-right: 10%;
 		}
-		svg {
-			width: 100%;
-			/* display: inline; */
-			/* margin-right: 20%; */
-			/* margin-bottom: 20%; */
-			/* margin-right: 55%; */
-		}
-		#viz {
-			object-position: center;
-			/* margin-right: 55%; */
-			/* padding-top: -100px; */
-		}
-
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-@media (max-width: 575px) {
-    #viz {
-		/* display: none; */
-		overflow: hidden;
-		margin-right: 30%;
-		/* padding-right: 10%; */
-	}
-	
-
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-     #vis {
-		padding-right: 10%;
-		/* display: none; */
-        /* margin-right: 300px; */
-        /* background-color: cyan; */
-        /* overflow: hidden; */
-    }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #vis {
-		/* display: none; */
-		padding-left: 20%;
-        
-    }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    #vis {
-        /* display: none; */
-    }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    #viz {
-        /* display: none; */
-        
-    }
-}
-	
 	  </style>
 
 
@@ -106,8 +43,8 @@
 
 
 
-<div class="container" id="viz">		
-	<!-- <hr> -->
+<div class="container">		
+
 	<div id = 'vis'></div>
 </div>	
 
@@ -115,8 +52,8 @@
 <script>
 	// bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 	function bubbleChart() {
-		const width = 300;
-	  const height = 390;
+	    const width = 350;
+	  const height = 315;
 	
 	  // location to centre the bubbles
 	  const centre = { x: width/2, y: height/2 };
@@ -149,7 +86,7 @@
 	  // set up colour scale
 	  const fillColour = d3.scaleOrdinal()
 		  .domain(["1", "2", "3", "5", "99"])
-		  .range(["#0074D9", "#7FDBFF", "#39CCCC", "#3D9970", "#AAAAAA"]);
+		  .range(["#9fd74e", "#9fd74ea6", "#9fd74e3b", "#9fd74e69", "#9fd74e3b;"]);
 	
 	  // data manipulation function takes raw data from csv and converts it into an array of node objects
 	  // each node will store data and visualisation values to draw a bubble
@@ -163,15 +100,15 @@
 		// size bubbles based on area
 		const radiusScale = d3.scaleSqrt()
 		  .domain([0, maxSize])
-		  .range([0, 80])
+		  .range([0, 45])
 	
 		// use map() to convert raw data into node data
 		const myNodes = rawData.map(d => ({
 		  ...d,
 		  radius: radiusScale(+d.size),
 		  size: +d.size,
-		  x: Math.random() * 900,
-		  y: Math.random() * 800
+		  x: Math.random() * 100,
+		  y: Math.random() * 150
 		}))
 	
 		return myNodes;
