@@ -8,131 +8,67 @@
 	<meta name="description" content="">
 	<meta name="MAC-dev" content="">
 
-	<title>Services Computer Repair</title>
+	<title>Services Full Deployments</title>
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="servicesstyle.css">
 
 	<style>
-		html {
-			width: 100%;
-			height: 100%;
-		}
-
 		body {
-
-
-			display: block;
-			-moz-background-size: cover;
-			-webkit-background-size: cover;
+			background-image: url("assets/images/xxxx.jpg");
+			background-position: center;
 			background-size: cover;
-			background-color: rgba(0, 0, 0);
-			color: white;
-			background-image: url("assets/images/mLogX.png");			
-			background-position: center;
-			background-attachment: fixed;
-			width: 100%;
-			height: 100%;
-		}
-
-		.container {
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);
-			width: 100%;
-			height: 30%;
-		}
-
-		.overlay {
-			/* background-image: url("assets/images/mLogX.png");  */
-			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
-			width: inherit;
-			height: 100%;
-			padding-bottom: 70%; 
-		}
-
-		a {
-			color: white;
-		}
-
-		.nav {
-			/* background-color: white; */
-			color: white;
-			text-shadow: 10px 10px 20px black;
-		}
-
-		.navbar-brand {
-			background-color: rgba(99, 9, 9, 0.372);
-			color: rgb(255, 255, 255);
-			text-shadow: none;
-		}
-
-
-		nav.navbar-dark {
-			background-color: rgba(255, 255, 255, 0.276);
-			margin-bottom: 0;
+			-moz-background-attachment: fixed;
+			-webkit-background-attachment: fixed;
+			background-attachment: fixed;
 
 
 		}
 
-		#myCollapsingList {
-			background-color: rgba(99, 9, 9, 0.372);
-			float: right;
-		}
-
-		.navbar-toggle {
-			background-color: rgba(255, 255, 255, 0.804);
-
-		}
-
-		.navbar-nav {
-			/* background-color: red; */
-			/* padding-left: 50%; */
-		}
-
-		.icon-bar {
-			background-color: rgb(0, 0, 0);
-
-		}
-
-	
-
-
-		#serviceImg {
-			height: 270px;
+		#serviceRepair {
 			width: 320px;
+			text-align: center;
+			/* background-color: rgba(255, 255, 255, 0.322); */
+			/* background-color: rgba(151, 67, 67, 0.276); */
+			/* background-color: rgba(226, 130, 19, 0.411); */
+			height: max-content;
+			border: 2px solid rgb(255, 255, 255);
+			border-radius: 3%;
+			overflow: hidden;
+			padding: 5%;
+			margin-top: 2%;
+
 		}
 
-		#serviceInfo {
-			width: 100%;
-			height: 100%;
-			background-color: rgba(4, 219, 29, 0);
-			background-image: url("#");
-			width: max-content;
-			/* margin-left: 30%; */
-			/* margin-right: 50%; */
+		#Infotext {
 
-
+			background-color: rgba(0, 0, 0, 0.308);
+			/* background-color: rgba(0, 0, 0, 0.753); */
+			padding-top: 1px;
+			/* padding-bottom: 10px;     */
+			color: rgb(255, 255, 255);
+			/* border: 2px solid #ffffff; */
+			/* border: 2px solid rgba(255, 0, 0, 0.404); */
+			border-radius: 4%;
+			/* color: rgb(0, 0, 0); */
+			/* color: rgba(0, 0, 0, 0.829); */
 		}
 
-		#serviceImg {
-			margin-left: 4%;
-		}
-		#Atext {
-			color: rgb(156, 238, 150);
-			margin-left: 4%;
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);	
-		}
+		.serviceNav {}
 	</style>
 
 </head>
 
 <body>
 
+
+
 	<nav class="navbar right navbar-dark">
 		<div class='container'>
 			<div class="nav navbar-header ">
+
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
 				<button type="button" class="navbar-toggle right" data-toggle="collapse"
@@ -152,12 +88,13 @@
 			</ul>
 		</div>
 	</nav>
-	
+	<!-- </div> -->
+
 	<div class="container">
 		<div class="overlay">
-			<h1>Repairs</h1>			
+			<h1>Deployments</h1>
 			<div class="content">
-				<ul class="bmenu">
+				<ul class="serviceNav">
 					<!-- <hr> -->
 					<li>
 						<a href="serviceLogo.html">Logo Branding Design</a>
@@ -179,21 +116,22 @@
 			</div>
 		</div>
 	</div>
-	<div class="container" id="serviceInfo">
-		<div class="bmenu">
-			<br>
-			
-			
-			<div id="Atext">
+
+	<div class="container serviceInfo" id="serviceInfo">
+		<div id="serviceRepair">
+
+
+			<div id="Infotext">
 				<h1>Iphone & Andriod, <br><h3>Cell Phones & Tablets, <br>Desktops or Laptops<br>Cracked Screen?</h3></h1>
-				<a href="contact.html"> <h1>Submit A Request!</h1></a>
+				<a href="contact.html">Submit A Request!</a>
 				<p>CompTIA A+ Certified. Windows PC's and Apple Repairs</p>
 				<p>Onsite Repairs and Computer Setups.</p>
-			</div>
-			<br>
+			    </div>
+			<!-- <br> -->
 		</div>
+		<br><br><br><br>
 	</div>
-
+	<div id="spacer"></div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
