@@ -12,120 +12,61 @@
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="servicesstyle.css">
 
 	<style>
-		html {
-			width: 100%;
-			height: 100%;
-		}
-
-		body {
-
-			display: block;
-			-moz-background-size: cover;
-			-webkit-background-size: cover;
+			body {
+			background-image: url("assets/images/x.jpg");
+			background-position: center;
 			background-size: cover;
-			background-color: rgba(9, 75, 49, 0.562);
-			color: white;
-			background-image: url("assets/images/mLogX.png");
-			background-position: center;
-			background-attachment: fixed;
-			width: 100%;
-			height: 100%;
-		}
-
-		.nav {
-			/* background-color: white; */
-			color: white;
-			text-shadow: 10px 10px 20px black; 
-		}
-
-		.navbar-brand {
-			/* background-color: rgba(255, 255, 255, 0.514); */
-			color: rgb(255, 255, 255);
-			text-shadow: none;
-		}
-
-		nav.navbar-dark {
-			background-color: rgba(255, 255, 255, 0);
-			margin-bottom: 0;
-
-
-		}
-		#myCollapsingList {
-			color: rgb(255, 255, 255);
-			float: right;
-		}
-
-		.navbar-toggle {
-			background-color: rgba(255, 255, 255, 0.863);
-
-		}
-
-		.navbar-nav {
-			/* background-color: red; */
-			/* padding-left: 50%; */
-		}
-
-		.icon-bar {
-			background-color: rgba(10, 114, 88, 0.575);
-			
-		}
-
-		.overlay {			
-			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
-			width: inherit;
-			height: 100%;
-			/* padding-bottom: 70%;  */
-		}
+			-moz-background-attachment: fixed;
+			-webkit-background-attachment: fixed;
+			background-attachment: fixed;
 
-		a {
-			color: white;
-		}
-		.container{
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);			
-			width: 100%;
-			height: 30%;
-		}
 
-	
+		}		
 
-		#serviceLogo {
-			/* background-color: rgba(0, 0, 0, 0.13); */
-			width: max-content;
-			margin: 0 auto;
-			/* background-color: rgba(126, 3, 91, 0.208); */
-		}
-
-		#serviceImg {
-			height: 270px;
+		#serviceRedo {
 			width: 320px;
-			margin: 0 auto;
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.322);
+			background-color: rgba(202, 144, 57, 0.466);
+			/* background-color: rgba(226, 130, 19, 0.411); */
+			height: max-content;
+			border: 2px solid rgb(255, 255, 255);
+			border-radius: 3%;
+			overflow: hidden;
+			padding: 5%;
+			margin-top: 2%;
+
 		}
-		#serviceImg {
-			margin-left: 4%;
+
+		#Infotext {
+
+			background-color: rgba(0, 0, 0, 0.445);
+			/* background-color: rgba(0, 0, 0, 0.753); */
+			padding-top: 1px;
+			/* padding-bottom: 10px;     */
+			color: rgb(255, 255, 255);
+			/* border: 2px solid #ffffff; */
+			/* border: 2px solid rgba(255, 0, 0, 0.404); */
+			border-radius: 4%;
+			/* color: rgb(0, 0, 0); */
+			/* color: rgba(0, 0, 0, 0.829); */
 		}
-		#Atext {
-			margin-left: 4%;
-		}
-		
 	</style>
 
 </head>
 
 <body>
 
-	<!-- 
-        Bootstrap and Jquery CDNS applied
-	 -->
-	
 
-	 <nav class="navbar right navbar-dark">
+
+	<nav class="navbar right navbar-dark">
 		<div class='container'>
 			<div class="nav navbar-header ">
+
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
 				<button type="button" class="navbar-toggle right" data-toggle="collapse"
@@ -141,16 +82,17 @@
 				<li><a class="active" href="services.html">Services</a></li>
 				<li><a href="index.html#sec-fullstack">Skills</a></li>
 				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>				
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
+	<!-- </div> -->
 
 	<div class="container">
 		<div class="overlay">
-			<h1>Website Designs</h1>
+			<h1>Redesigns</h1>
 			<div class="content">
-				<ul class="bmenu">
+				<ul class="serviceNav">
 					<!-- <hr> -->
 					<li>
 						<a href="serviceLogo.html">Logo Branding Design</a>
@@ -173,20 +115,20 @@
 		</div>
 	</div>
 
-	<div class="container" id="serviceInfo">
-		<div class="bmenu">
-			<br>
-			
-			
-			<div id="Atext">
-				<h1>Websites Redesigned</h1>
+	<div class="container serviceInfo" id="serviceInfo">
+		<div id="serviceRedo">
+			<!-- <img src="assets/images/zz.jpg" alt="" id="serviceImg"> -->			
+			<h1>Websites Redesigned</h1>
+				<hr>
+			<div id="Infotext">
+				<br>
 				<a href="contact.html">Submit A Request!</a>
 				<p>All Web Site Designs Builds are Custom.</p>
 			</div>
 			<br>
 		</div>
+		<br><br><br><br>
 	</div>
-
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

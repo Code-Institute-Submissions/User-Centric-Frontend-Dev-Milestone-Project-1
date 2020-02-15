@@ -8,120 +8,68 @@
 	<meta name="description" content="">
 	<meta name="MAC-dev" content="">
 
-	<title>Services Logo Branding</title>
+	<title>Services User-Centric DevProject</title>
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="servicesstyle.css">
 
 	<style>
-		html {
-			width: 100%;
-			height: 100%;
-		}
-		
 		
 		body {
-			
-			display: block;
-			-moz-background-size: cover;
-			-webkit-background-size: cover;
+			background-image: url("assets/images/y.jpg");
+			background-position: center;
 			background-size: cover;
-			background-color: rgba(176, 238, 6, 0.432);
-			/* background-color: rgba(54, 24, 92, 0.445); */
-			color: white;
-			background-image: url("assets/images/mLogX.png");
-			background-position: center;
-			background-attachment: fixed;
-			width: 100%;
-			height: 100%;
-		}
-
-		.container {
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);
-			width: 100%;
-			/* height: 100%; */
-		}
-
-		.overlay {
-			/* background-image: url("assets/images/bg2.png");  */
-			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
-			width: inherit;
-			/* height: 100%; */
-			/* padding-bottom: 70%;  */
+			-moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+			
+			
 		}
+		#serviceLogo {
+			width: 320px;    
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.432);
+    /* background-color: rgba(226, 130, 19, 0.411); */
+    height: max-content;
+    border: 2px solid #000000;
+    border-radius: 3%;
+	overflow: hidden;
+	padding: 5%;
+	margin-top: 2%;
+ 
+}
+#Infotext {
+	
+	background-color: rgba(0, 0, 0, 0.432);
+	/* background-color: rgba(0, 0, 0, 0.753); */
+    padding-top: 1px;
+    /* padding-bottom: 10px;     */
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
+	/* border: 2px solid rgba(255, 0, 0, 0.404); */
+	border-radius: 4%;
+	color: rgb(255, 255, 255);
+}
 
-		a {
-			color: white;
-		}
+.serviceNav {
+	
+}
 
-
-		.nav {
-			/* background-color: white; */
-			color: white;
-			text-shadow: 10px 10px 20px black;
-		}
-
-		.navbar-brand {
-			background-color: rgba(99, 9, 9, 0.372);
-			color: rgb(255, 255, 255);
-			text-shadow: none;
-		}
-
-
-		nav.navbar-dark {
-			background-color: rgba(255, 255, 255, 0.276);
-			margin-bottom: 0;
-
-
-		}
-
-		#myCollapsingList {
-			background-color: rgba(99, 9, 9, 0.372);
-			float: right;
-		}
-
-		.navbar-toggle {
-			background-color: rgba(255, 255, 255, 0.804);
-
-		}
-
-		.navbar-nav {
-			/* background-color: red; */
-			/* padding-left: 50%; */
-		}
-
-		.icon-bar {
-			background-color: rgb(0, 0, 0);
-
-		}
-
-
-
-		#serviceImg {
-			height: 270px;
-			width: 320px;
-		}
-
-		#serviceImg {
-			margin-left: 4%;			
-		}
-
-		#Atext {
-			margin-left: 4%;
-			/* margin-top: 5%; */
-		}
+ 
 	</style>
 
 </head>
 
 <body>
 
+
+
 	<nav class="navbar right navbar-dark">
 		<div class='container'>
-			<div class="nav navbar-header">
+			<div class="nav navbar-header ">
+
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
 				<button type="button" class="navbar-toggle right" data-toggle="collapse"
@@ -141,14 +89,13 @@
 			</ul>
 		</div>
 	</nav>
-
-
+	<!-- </div> -->
 
 	<div class="container">
 		<div class="overlay">
 			<h1>Logo Branding</h1>
 			<div class="content">
-				<ul class="bmenu">
+				<ul class="serviceNav">
 					<!-- <hr> -->
 					<li>
 						<a href="serviceLogo.html">Logo Branding Design</a>
@@ -169,34 +116,34 @@
 				</ul>
 			</div>
 		</div>
-		</di>
+	</div>
 
-		<div class="container" id="serviceInfo">
-			<div class="bmenu">
-				<br>
-
-
-				<div id="Atext">
-					<h1>Custom Logo WebKits</h1>
-					<a href="contact.html">Submit A Request!</a>
-					<p>WebKits Includes Custom Vector's And SVG's.</p>
-				</div>
-				<br>
+	<div class="container serviceInfo" id="serviceInfo">
+		<div id="serviceLogo">
+			
+			<div id="Infotext">
+				<h1>Custom Logo WebKits</h1>
+				<hr>
+				<a href="contact.html">Submit A Request!</a>
+				<p>WebKits Includes Custom Vector's And SVG's.</p>
 			</div>
+			<!-- <br> -->
 		</div>
+		<br><br><br><br>
+	</div>
+	<div id="spacer"></div>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
 
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-		</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
 
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-		</script>
-
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-		</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 
 </body>
 

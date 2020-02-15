@@ -8,121 +8,69 @@
 	<meta name="description" content="">
 	<meta name="MAC-dev" content="">
 
-	<title>Services Web Apps</title>
+	<title>Services User-Centric DevProject</title>
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="servicesstyle.css">
+
 	<style>
-		html {
-			width: 100%;
-			height: 100%;
-		}
-
+		
 		body {
-
-			display: block;
-			-moz-background-size: cover;
-			-webkit-background-size: cover;
+			background-image: url("assets/images/zz.jpg");
+			background-position: center;
 			background-size: cover;
-			background-color: rgba(54, 24, 92, 0.445);
-			color: white;
-			background-image: url("assets/images/mLogX.png");
-			background-position: center;
-			background-attachment: fixed;
-			width: 100%;
-			height: 100%;
-		}
-
-		.nav {
-			/* background-color: white; */
-			color: white;
-			text-shadow: 10px 10px 20px black;
-		}
-
-		.navbar-brand {
-			/* background-color: rgba(99, 9, 9, 0.372); */
-			background-color: rgba(41, 41, 41, 0.098);
-			color: rgb(255, 255, 255);
-			text-shadow: none;			
-		}
-
-		nav.navbar-dark {
-			background-color: rgba(4, 219, 29, 0.397);
-			margin-bottom: 0;
-
-
-		}
-
-		.navbar-toggle {
-			background-color: rgba(255, 255, 255, 0.461);
-
-		}
-
-		.navbar-nav {
-			/* background-color: red; */
-			/* padding-left: 50%; */
-		}
-
-		.icon-bar {
-			background-color: rgba(12, 19, 234, 0.598);
-		}
-
-		#myCollapsingList {
-			background-color: rgba(41, 41, 41, 0.098);
-			float: right;
-		}
-
-
-
-		.overlay {
-
-			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
-			width: inherit;
-			/* height: 100%; */
-			/* padding-bottom: 70%;  */
+			-moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+			
+			
 		}
-		.content {
-			/* display: none; */
-		}
+		#serviceWebApp {
+			width: 320px;    
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.432);
+    /* background-color: rgba(226, 130, 19, 0.411); */
+    height: max-content;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3%;
+	overflow: hidden;
+	padding: 5%;
+	margin-top: 2%;
+ 
+}
+#Infotext {
+	
+	background-color: rgba(36, 3, 3, 0.103);
+	/* background-color: rgba(0, 0, 0, 0.753); */
+    padding-top: 1px;
+    /* padding-bottom: 10px;     */
+	color: rgb(255, 255, 255);
+	/* border: 2px solid #ffffff; */
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 4%;
+	/* color: rgb(0, 0, 0); */
+	color: rgba(0, 0, 0, 0.829);
+}
 
-		a {
-			color: white;
-		}
+.serviceNav {
+	
+}
 
-		.container{
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);	
-			width: 100%;		
-			height: 30%;
-		}
-
-		#serviceImg {
-			height: 270px;
-			width: 320px;
-		}
-		#serviceInfo {
-			width: 100%;
-			height: 100%;
-			/* background-color: rgba(4, 219, 29, 0);		 */
-			margin-left: 30%;			
-		}
-		#serviceImg {
-			margin-left: 4%;
-		}
-		#Atext {
-			margin-left: 4%;
-		}
+ 
 	</style>
 
 </head>
 
 <body>
 
+
+
 	<nav class="navbar right navbar-dark">
 		<div class='container'>
 			<div class="nav navbar-header ">
+
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
 				<button type="button" class="navbar-toggle right" data-toggle="collapse"
@@ -138,16 +86,17 @@
 				<li><a class="active" href="services.html">Services</a></li>
 				<li><a href="index.html#sec-fullstack">Skills</a></li>
 				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>				
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
+	<!-- </div> -->
 
 	<div class="container">
 		<div class="overlay">
-			<h1>Web Apps</h1>
+			<h1>Develoments</h1>
 			<div class="content">
-				<ul class="bmenu">
+				<ul class="serviceNav">
 					<!-- <hr> -->
 					<li>
 						<a href="serviceLogo.html">Logo Branding Design</a>
@@ -170,30 +119,19 @@
 		</div>
 	</div>
 
-	<div class="container" id="serviceInfo">
-		<div class="bmenu">
-			<!-- <br> -->
+	<div class="container serviceInfo" id="serviceInfo">
+		<div id="serviceWebApp">
 			
-			
-			<div id="Atext">
+			<div id="Infotext">
 				<h1>Web App Solution?</h1>
 				<a href="contact.html">Submit A Request!</a>
 				<p>All Web Sites And Applications Built From The Ground Up.</p>
 			</div>
-			<br>
+			<!-- <br> -->
 		</div>
+		<br><br><br><br>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
+	<div id="spacer"></div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

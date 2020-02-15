@@ -186,6 +186,113 @@ small , strong {
 
 
 
+/* Contact Form -------------------------------------------------------------------------------------------- */
+select {
+    margin-bottom: 10%;
+    color: black;
+}
+#register-form {
+    margin-bottom: 15%;
+}
+.contact-form_text {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.input-group {
+    margin: 0 auto;
+
+}
+
+.form-control {
+    background-color: rgba(255, 0, 221, 0.116);
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    border: 6px solid rgba(66, 4, 53, 0.829);
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.center-form {
+    /* width: 70%; */
+    margin: 0 auto;
+}
+
+textarea.form-control {
+    color: rgb(255, 255, 255);
+}
+
+input.form-control {
+    color: rgb(255, 255, 255);
+}
+
+.form-content {
+    padding: 5%;
+    border: 1px solid rgb(0, 0, 0);
+    /* border-radius: 1.5rem; */
+    background-color: rgba(0, 0, 0, 0.815);
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.527);
+}
+
+.form-control {
+    border-radius: 1.5rem;
+    border-color: rgb(255, 255, 255);
+}
+
+.btnSubmit {
+    margin-left: 40%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    /* background: #d5be0ddd; */
+    color: #fff;
+
+}
+
+#sbtbtn {
+
+
+    color: rgba(168, 247, 23, 0.973);
+    background-color: rgba(0, 0, 0, 0.637);
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.note {
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #fff700b5, #4b0347a4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 80px;
+    
+    
+}
+.note > p {
+    color: rgb(255, 255, 255);
+    /* color: chartreuse; */
+    font-size: large;
+    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+    /* padding: 1%; */
+    
+}
+
 
 
 /* // Extra small devices (portrait phones, less than 576px) */

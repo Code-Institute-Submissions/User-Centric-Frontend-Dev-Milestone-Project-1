@@ -12,127 +12,63 @@
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="servicesstyle.css">
+
 	<style>
-		html {
-			width: 100%;
-			height: 100%;
-		}
 		body {
-			
-				display: block;
-				-moz-background-size: cover;
-				-webkit-background-size: cover;
-				background-size: cover;
-				background-color: white;
-				color: white;
-				background-image: url("assets/images/mLogX.png");	
-				background-position: center;
-				background-attachment: fixed;
-				width: 100%;
-				height: 100%;
-			}
-		
-		.container{
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);		
-			width: 100%;	
-			height: 30%;
-		}
-		.overlay {
-			/* background-image: url("assets/images/bg2.png");  */
+			background-image: url("assets/images/yy.jpg");
 			background-position: center;
-			background-repeat: no-repeat;
 			background-size: cover;
-			width: inherit;
-			height: 100%;
-			/* padding-bottom: 70%;  */
-		}
-
-		a {
-			color: white;
-		}
-
-
-		.nav {
-			/* background-color: white; */
-			color: white;
-			text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.493); 
-		}
-
-		.navbar-brand {
-			background-color: rgba(0, 0, 0, 0.1);			
-			color: rgb(255, 255, 255);
-			text-shadow: none;			
-		}
-	
-
-		nav.navbar-dark {
-			background-color: rgba(238, 255, 0, 0.276);
-			margin-bottom: 0;
+			background-repeat: no-repeat;
+			-moz-background-attachment: fixed;
+			-webkit-background-attachment: fixed;
+			background-attachment: fixed;
 
 
 		}
-		#myCollapsingList {
-			/* background-color: rgba(99, 9, 9, 0.372); */
-			float: right;
-		}
 
-		.navbar-toggle {
-			background-color: rgba(255, 255, 255, 0.804);
-
-		}
-
-		.navbar-nav {
-			/* background-color: red; */
-			/* padding-left: 50%; */
-		}
-
-		.icon-bar {
-			background-color: rgb(0, 0, 0);
-			
-		}
-
-
-		#serviceLogo {
-			width: max-content;			
-		}
-
-		#serviceImg {
-			height: 270px;
+		#serviceDeploy {
 			width: 320px;
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.322);
+			background-color: rgba(151, 67, 67, 0.276);
+			/* background-color: rgba(226, 130, 19, 0.411); */
+			height: max-content;
+			border: 2px solid rgb(255, 255, 255);
+			border-radius: 3%;
+			overflow: hidden;
+			padding: 5%;
+			margin-top: 2%;
+
 		}
-		/* #serviceInfo {
-			width: 100%;
-			height: 100%;
-			background-color: rgba(4, 219, 29, 0);
-			background-image: url("#");
-			margin-left: 4%;						
-		} */
-		#serviceImg {
-			margin-left: 4%;
+
+		#Infotext {
+
+			background-color: rgba(255, 255, 255, 0.103);
+			/* background-color: rgba(0, 0, 0, 0.753); */
+			padding-top: 1px;
+			/* padding-bottom: 10px;     */
+			color: rgb(255, 255, 255);
+			border: 2px solid #ffffff;
+			/* border: 2px solid rgba(255, 0, 0, 0.404); */
+			border-radius: 4%;
+			/* color: rgb(0, 0, 0); */
+			/* color: rgba(0, 0, 0, 0.829); */
 		}
-		#Atext {
-			color: rgb(156, 238, 150);
-			margin-left: 4%;
-			text-shadow: 1px 1px 5px rgb(0, 0, 0);	
-		}
+
+		.serviceNav {}
 	</style>
 
 </head>
 
 <body>
 
-	<!-- 
-        Bootstrap and Jquery CDNS applied
-	 -->
-
-	<!-- <div class="container" id = "display"> -->
-
 
 
 	<nav class="navbar right navbar-dark">
 		<div class='container'>
 			<div class="nav navbar-header ">
+
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
 				<button type="button" class="navbar-toggle right" data-toggle="collapse"
@@ -148,16 +84,17 @@
 				<li><a class="active" href="services.html">Services</a></li>
 				<li><a href="index.html#sec-fullstack">Skills</a></li>
 				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>				
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
+	<!-- </div> -->
 
 	<div class="container">
 		<div class="overlay">
 			<h1>Deployments</h1>
 			<div class="content">
-				<ul class="bmenu">
+				<ul class="serviceNav">
 					<!-- <hr> -->
 					<li>
 						<a href="serviceLogo.html">Logo Branding Design</a>
@@ -178,44 +115,34 @@
 				</ul>
 			</div>
 		</div>
-	</div>		
+	</div>
 
-	<div class="container" id="serviceInfo">
-		<div class="bmenu">
-			<br>
-			
-			
-			<div id="Atext">
+	<div class="container serviceInfo" id="serviceInfo">
+		<div id="serviceDeploy">
+
+
+			<div id="Infotext">
 				<h1>Experienced <br>WebSite Deployments.</h1>
 				<a href="contact.html">Submit A Request!</a>
 				<p>Do You Have A Mockup Or Website<br> That Needs To Be Deployed To The World Wide Web.</p>
 			</div>
-			<br>
+			<!-- <br> -->
 		</div>
+		<br><br><br><br>
 	</div>
-
-
-
-
-
-
-	
-
-
-
-
+	<div id="spacer"></div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		crossorigin="anonymous"></script>
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 
 </body>
 
