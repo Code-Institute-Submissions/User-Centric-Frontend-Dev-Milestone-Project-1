@@ -31,38 +31,103 @@
 
 	<style>
 		html {
-			background-color: black;
+			/* background-color: black; */
+			
+			/* margin-bottom: 100%;                          */
 		}
-		body {
+		body, html {
+			/* background-color: rgba(0, 0, 0, 0.425); */
 			background-image: url("assets/images/contactBG.jpg");
-			background-color: rgb(255, 255, 255);
-			background-position: cover;
+			/* background-image: url("assets/images/bg.png"); */
+			/* background-color: rgb(255, 255, 255); */
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
 			padding-bottom: 10%;
+			height: 95%;
+			width: 100%;
 		}
 
 		#myCollapsingList {
 			background-color: rgba(0, 0, 0, 0.205);
+			background-image: url("assets/images/yy.jpg");
+			/* background-image: url("assets/images/contactBG.jpg"); */
+			background-position: top 79% left 25%;
+			
+			
+			background-size: 120%;
 			width: auto;
 			float: right;
 			text-align: right;
+			width: 100%;			
+			margin: 0;
+		}
+
+		.nav.navbar-collapse.collapse.show {
+			/* display: none; */
+			color: violet;
+			background-color: tomato;
 		}
 
 		.navbar-brand {
-			color: rgba(168, 247, 23, 0.973);
+			color: rgb(255, 255, 255);
 
 
+		}
+
+		.navbar-nav {
+			/* padding-bottom: 75%; */
+			width: 100%;
+			position: right;
 		}
 
 		.icon-bar {
-			background-color: rgba(168, 247, 23, 0.973);
+			/* background-color: rgba(168, 247, 23, 0.973); */
+			color: rgb(255, 255, 255);
+			color: transparent;
 			/* border: 1px solid chartreuse;			 */
 		}
+		.navbar-dark {
+			background: rgba(255, 255, 255, 0);
+			background-color: rgba(255, 255, 255, 0);
+			/* background-image: url("fds"); */
+		}
+		.form{
+			width: 90%;
+			/* box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+			/* box-shadow: 10px 14px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
+		}
+		.spacer {
+			padding-bottom: 22%;	
+		}
+		.jumpMenue{
+			/* display: none; */
+			height: 75%;
+			background-image: url("assets/images/zzz.png");
+			background-attachment: scroll;
+			background-position: bottom;
+			background-size: 140%;
+			background-repeat: no-repeat;
+		}
+		.jumpsMenue{
+			display: none;
+			height: 100%;
+			/* background-image: url("assets/images/mLog.png"); */
+			background-attachment: scroll;
+			background-position: bottom;
+			background-size: 140%;
+			background-repeat: no-repeat;
+		}
+
 	</style>
 
 </head>
 
-<body>
-
+<body>	
+<!-- <div class="jumpMenue"> -->
+	<!-- <br><br><br><br> -->
+</div>
+<!-- <br> -->
 	<nav class="navbar right navbar-dark">
 		<!-- <div class='container'> -->
 		<div id='navBG'>
@@ -85,17 +150,23 @@
 				<li><a href="index.html#sec-fullstack">Skills</a></li>
 				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
+				<div class="jumpsMenue">
+					<!-- <img src="assets/images/m.png" alt=""> -->
+					<h1 class="spacer"></h1>
+				</div>
 			</ul>
 		</div>
+		<div class="jumpMenue"></div>
 	</nav>
-
 	<div class="container" id="register-form">
-
+<div><br><br></div>
+<!-- <br> -->
 		<div class="form">
+			<!-- <br><br> -->
 			<div class="note">
 				<p>Fill out form below</p>
 			</div>
-
+<!-- <br><br><hr> -->
 			<div class="form-content">
 
 				<div class="col">
@@ -112,14 +183,14 @@
 
 							<div class="input-group mb-3">
 
-								<select class="custom-select" id="feedbackSelector" name="feedbackSelector">
+								<!-- <select class="custom-select" id="feedbackSelector" name="feedbackSelector">
 									<option selected>Services</option>
 									<option value="1">Logo Branding</option>
 									<option value="2">Web Designs</option>
 									<option value="3">Web Apps</option>
 									<option value="4">Deployments</option>
 									<option value="5">Computer Repair</option>
-								</select>
+								</select> -->
 								<br>
 							</div>
 
@@ -147,18 +218,25 @@
 					</div>
 
 				</div>
+				<!-- <br><br>				 -->
 			</div>
-
-
-
+			<br>
+			<!-- <br><br> -->
 		</div>
+<!-- spacer -->
+<div></div><h1></h1></div>
 
+		<!-- <br><br><br><br> -->
 
 		<!-- <div id="scs-center-circle-container"> -->
 		<!-- <div id="scs-center-circle-cover-bg"></div> -->
 		<!-- </div> -->
 
 
+	</div>
+
+	<div class="spacer"><hr><br>
+		<h1>mac|</h1>
 	</div>
 
 	<!-- Branding Footer -->
