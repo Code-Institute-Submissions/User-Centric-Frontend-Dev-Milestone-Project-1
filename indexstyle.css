@@ -1,4 +1,20 @@
-
+.jumpsMenue{
+    /* visibility: .2%; */
+    overflow: hidden;
+    
+    width: 600px;
+    height: 150px;
+    background-image: url("assets/images/mLog.png");
+    /* background-image: url("assets/images/comp.jpeg"); */
+    /* transform: scaleX(-1); */
+    
+    transform-origin: left ;
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-size: 126%;
+    transform: rotate(-12deg);
+    background-repeat: no-repeat;
+}
 	.jumpMenue{
         /* visibility: hidden; */
         /* overflow: hidden; */
@@ -41,9 +57,12 @@ iframe {
     /* overflow: hidden; */
     /* background-image: url(assets/images/mLog1.png); */
     /* background-image: url("assets/images/x.jpg"); */
-    /* background-position: top; */
+    background-color: rgba(0, 0, 0, 0.514);
+    /* background-position: bottom left; */
+    /* background-size: contain; */
     /* background-repeat: repeat; */
-    /* padding-bottom: 5px; */
+    /* padding-bottom: 5%; */
+    /* margin-bottom: 15%; */
 }
 .navbar-header {
     /* background-color: rgb(0, 0, 0); */
@@ -63,9 +82,10 @@ nav.navbar-dark {
     /* background-color: rgb(255, 255, 255); */
     border: hidden;
     /* background-image: linear-gradient(30deg, rgba(37, 42, 124, 0.5), rgba(255, 255, 255, 0.096)); */
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     /* background-image: url("assets/images/x.jpg"); */
     background-position: bottom;
+    /* margin-top: 60%; */
     /* background: white; */
 }
 .icon-bar {
@@ -77,11 +97,13 @@ nav.navbar-dark {
 
 }
 #myCollapsingList {
-    background-color: rgba(0, 0, 0, 0.205);
-    background-image: url("assets/images/zz.jpg");
-    background-image: url("assets/images/comp1.jpeg");
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10%;
+    overflow: visible;
+    /* background-image: url("assets/images/comp1.jpeg"); */
+    /* background-image: url("assets/images/x.jpg"); */
     /* background-position: left bottom ; */
-    background-position: left top -8% ;
+    background-position: left top -20% ;
     background-repeat: no-repeat;
     background-size: 220%;
     width: auto;
@@ -89,6 +111,8 @@ nav.navbar-dark {
     text-align: right;
     width: 100%;			
     margin: 0;
+    height: 100%;
+    /* padding-bottom: 60%; */
 }
 nav a {
     font-size: large;

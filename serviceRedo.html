@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="servicesstyle.css">
 
 	<style>
-			body {
+		body {
 			background-image: url("assets/images/x.jpg");
 			background-position: center;
 			background-size: cover;
@@ -25,7 +25,7 @@
 			background-attachment: fixed;
 
 
-		}		
+		}
 
 		#serviceRedo {
 			width: 320px;
@@ -55,6 +55,39 @@
 			/* color: rgb(0, 0, 0); */
 			/* color: rgba(0, 0, 0, 0.829); */
 		}
+
+		#myCollapsingList {
+			/* background-color: rgba(0, 0, 0, 0.205); */
+			/* background-image: url("assets/images/comp1.jpeg"); */
+			/* background-image: url("assets/images/x.jpg"); */
+			/* background-position: left bottom ; */
+			background-position: left top -8%;
+			background-repeat: no-repeat;
+			background-size: 220%;
+			width: auto;
+			float: right;
+			text-align: right;
+			width: 100%;
+			margin: 0;
+		}
+		#navBG{
+			background-image: url("sdf.com");
+			background-image: url("assets/images/x1.jpg");
+			height: 600%;
+			background-color: transparent;
+			background-position: bottom left;
+			background-size: cover;
+		}
+		.navbar-dark{
+			background-image: url("sdf.com");
+			/* background-image: url("assets/images/x1.jpg"); */
+			background-position: bottom right;
+			background-size: cover;
+			background-attachment: fixed;
+			height: auto;
+			overflow: visible;
+			/* background-size: cover; */
+		}
 	</style>
 
 </head>
@@ -63,29 +96,35 @@
 
 
 
-	<nav class="navbar right navbar-dark">
-		<div class='container'>
-			<div class="nav navbar-header ">
+	<div id="display">
 
-				<a class="navbar-brand " href="index.html">{ M|m }</a>
+		<!-- Global Site Navagation -->
+		<nav class="navbar right navbar-dark">
+			<div id="navBG">
+				<div class="nav navbar-header ">
+					<a class="navbar-brand " href="index.html">{ M|m }</a>
+					<button type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+ 
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
 
-				<button type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-				</button>
+					<li><a class="active" href="services.html">Services</a></li>
+					<li><a href="index.html#sec-fullstack">Skills</a></li>
+					<li><a href="#fullBG-marketing">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<div class="jumpMenue">
+						<h1 class="spacer"></h1>
+					</div>
+				</ul>
 			</div>
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a class="active" href="services.html">Services</a></li>
-				<li><a href="index.html#sec-fullstack">Skills</a></li>
-				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
+		</nav>
+
 	<!-- </div> -->
 
 	<div class="container">
@@ -117,9 +156,9 @@
 
 	<div class="container serviceInfo" id="serviceInfo">
 		<div id="serviceRedo">
-			<!-- <img src="assets/images/zz.jpg" alt="" id="serviceImg"> -->			
+			<!-- <img src="assets/images/zz.jpg" alt="" id="serviceImg"> -->
 			<h1>Websites Redesigned</h1>
-				<hr>
+			<hr>
 			<div id="Infotext">
 				<br>
 				<a href="contact.html">Submit A Request!</a>
@@ -130,7 +169,7 @@
 		<br><br><br><br>
 	</div>
 
-
+</div>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
