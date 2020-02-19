@@ -28,7 +28,7 @@
 </head>
 
 <body>
-<!-- Main Nav & Header display -->
+	<!-- Main Nav & Header display -->
 	<div id="display">
 
 		<!-- Global Site Navagation -->
@@ -39,30 +39,39 @@
 					<button type="button" class="navbar-toggle right" data-toggle="collapse"
 						data-target="#myCollapsingList">
 						<span class="sr-only">Toggle navigation</span>
+						<!-- -X- -->
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 				</div>
- 
+
 				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-					<div class="jumpsMenue">
+					<div class="mobileSplashMenue">
 						<h1 class="spacer"></h1>
+
 					</div>
+					<!-- <div class="jumpsMenueX">
+						<h1 class="spacer"></h1>
+					</div> -->
+					<br><br><br><br>
 					<li><a class="active" href="services.html">Services</a></li>
 					<li><a href="index.html#sec-fullstack">Skills</a></li>
 					<li><a href="#fullBG-marketing">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
-					<div class="jumpMenue">
+					<div class="mobileSplash-BottomMenue">
 						<h1 class="spacer"></h1>
 					</div>
+					<!-- <div class="jumpMenueX">
+						<h1 class="spacer"></h1>
+					</div> -->
 				</ul>
 			</div>
 		</nav>
 
 
 		<!-- Landing Page Main Heading -->
-		<header class="masthead">
+		<header class="masthead" id="masthead">
 			<div class='container'>
 				<div class="row">
 					<div class="heroText">
@@ -77,11 +86,12 @@
 			</div>
 		</header>
 
-	</div><!------------------------------------------- Main Nav & Header display
+	</div>
+	<!------------------------------------------- Main Nav & Header display
 _END -->
 
-<!-- iFrames & D3 charts Fullstack Section 1 --->	
-	<div id="sec-fullstack" class="container" >
+	<!-- iFrames & D3 charts Fullstack Section 1 --->
+	<div id="sec-fullstack" class="container">
 		<div class="row">
 			<div class="col-12">
 
@@ -89,7 +99,7 @@ _END -->
 				<div class="col-sm-4 d3_fullstack">
 					<h3>Frontend Development</h3>
 					<p>Visual designs of the website.</p>
-					
+
 					<iframe src="iFrameFront.html" scrolling="no"></iframe>
 
 				</div>
@@ -98,7 +108,7 @@ _END -->
 
 					<h3>Backend Development</h3>
 					<p>Databases and Infrastructure.</p>
-										
+
 					<iframe id="d3iframe" src="iFrameBack.html" scrolling="no"></iframe>
 				</div>
 
@@ -106,21 +116,23 @@ _END -->
 
 					<h3>FullStack Development</h3>
 					<p>Skilled in all aeras of web stack.</p>
-					
+
 					<iframe src="iFrameFull.html" scrolling="no"></iframe>
 				</div>
 
 			</div>
+			<!-- <br><hr><br> -->
 		</div>
 
-		
-		
-	</div> <!------------------------------------------ Fullstack Section 1 | D3 charts and iFrames
+
+
+	</div>
+	<!------- Fullstack Section 1 | D3 charts and iFrames
 _END -->
 
-<!-- Fullstack Services Marketing Section 2 -->
-	<div id="fullBG-marketing" class="container" >
-	<!-- Images Texts and Links -->
+	<!-- Fullstack Services Marketing Section 2 -->
+	<div id="fullBG-marketing" class="container">
+		<!-- Images Texts and Links -->
 		<div class="row">
 			<div class="col-xs-12 col-md-6" id="fullBG-left">
 				<div class="col-xs-12 col-md-5">
@@ -140,7 +152,7 @@ _END -->
 					<div class="links">
 						<p><br>
 							<a href="serviceLogo.html">Frontend Designs</a>
-								<br><br><br>
+							<br><br><br>
 							<a href="serviceWebApp.html">WebApps</a>
 						</p>
 					</div>
@@ -166,7 +178,7 @@ _END -->
 					<div class="links">
 						<p><br>
 							<a href="serviceDply.html">Deployments</a>
-								<br><br><br>
+							<br><br><br>
 							<a href="serviceRedo.html">Web Designs</a>
 						</p>
 
@@ -174,37 +186,39 @@ _END -->
 				</div>
 			</div>
 		</div>
-	
-	</div> <!------------------------------------------ Fullstack Services Marketing Section 2
+
+	</div>
+	<!--------------- Fullstack Services Marketing Section 2
 _END -->
 
-<!-- Branding Footer -->
-	<footer id="footer-background" class="container" >
+	<!-- Branding Footer -->
+	<footer id="footer-background" class="container">
 		<div id="footer-container">
 			<div id="footer-brand-image">
 				<!-- <img src="assets/images/mLog12.png" class="img-responsive" alt=""/> -->
 			</div>
 		</div>
-	</footer> <!--------------------------------------- Branding Footer 
+	</footer>
+	<!--------------------------------------- Branding Footer 
 _END -->
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		    crossorigin="anonymous">
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
-			crossorigin="anonymous">
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
-			crossorigin="anonymous">
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 
+
+	<script>
+		
+		
+	</script>
 </body>
 
 </html>
-
- 
