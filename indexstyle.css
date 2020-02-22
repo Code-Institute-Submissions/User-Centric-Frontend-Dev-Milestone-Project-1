@@ -340,8 +340,8 @@ form::box-shadow {
     /* background-color: rgba(255, 0, 221, 0.116); */
     /* background: rgba(255, 255, 255, 0.226); */
     background-color: rgba(255, 255, 255, 0.226);
-    background-color: rgba(0, 0, 0, 0.37);
-    /* padding-bottom: 200px; */
+    /* background-color: rgba(0, 0, 0, 0.37); */
+    opacity: 80%;
 }
 
 .form {
@@ -359,15 +359,15 @@ form::box-shadow {
 }
 #fullname::placeholder {
     /* display: none; */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 #emailaddress::placeholder {
     /* display: none; */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 #projectsummary::placeholder {
     /* display: none; */
-    color: rgb(255, 255, 255);
+    color: black;
 }
 textarea {
     color: black;
@@ -375,14 +375,15 @@ textarea {
 }
 
 textarea.form-control {
-    color: rgb(255, 255, 255);
-    border: 1px solid rgba(255, 255, 255, 0.212);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.199);
     /* color: red; */
 }
 
 input.form-control {
-    color: rgb(255, 255, 255);
-    border: 1px solid rgba(255, 255, 255, 0.212);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.199);
 }
 
 .form-content {
@@ -392,8 +393,8 @@ input.form-control {
     /* margin-bottom: 200px; */
     border: 1px solid rgba(255, 255, 255, 0.212);
     border-radius: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.308);
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(92, 4, 4, 0.536); */
+    background-color: rgba(112, 17, 27, 0.35);
     color: rgb(255, 255, 255);
 }
 
@@ -465,7 +466,7 @@ h5 {
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 @media (max-width: 575px) {
-    .register-form {
+    #register-form {
         /* width: 50%;       */
     }
     .navbar-brand:hover {
@@ -526,7 +527,7 @@ h5 {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .register-form {
+    #register-form {
         width: 70%;
     }
     .mobileSplashMenue {
@@ -571,7 +572,7 @@ h5 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .register-form {
+    #register-form {
         width: 60%;
     }
   
@@ -616,7 +617,7 @@ h5 {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {    
     .note {
-        background: rgba(0, 0, 0, 0.486);    
+        /* background: rgba(0, 0, 0, 0.486);     */
     }
     #myCollapseingList {
         float: right;
