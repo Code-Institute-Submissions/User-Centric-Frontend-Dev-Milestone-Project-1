@@ -44,7 +44,7 @@ body {
     background-size: cover;
     width: max-content;
     /* height: 100%; */
-    padding: 1%; 
+    /* padding: 1%;  */
     padding-left: 3%; 
     padding-right: 3%; 
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
@@ -52,6 +52,8 @@ body {
     border: 2px rgba(255, 255, 255, 0) solid;
     border-color: white;
     border-radius: 1.5em;
+    margin-top: -32.5px;
+    border-top: none;
 }
 
 a {
@@ -72,6 +74,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: none;
 
 
 }
@@ -82,7 +85,7 @@ a {
     color: rgb(255, 255, 255);
     width: min-content;
     background-position: center;
-    margin-top: 5%;
+    margin-top: 2%;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
 
 
@@ -106,7 +109,9 @@ a {
     border-radius: 1.5em;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: 100%;
 }
 
 #serviceImg {
@@ -125,7 +130,7 @@ a {
 }
 
 #spacer {
-    margin-bottom: 300px;
+    /* margin-bottom: 50px; */
 }
 
 .navbar-nav {
@@ -135,7 +140,7 @@ a {
 #navBG {
     /* background-color: rgba(0, 0, 0, 0.205); */
     background-position: top 79% left 25%;
-    background-image: url("assets/images/yy.jpg");
+    /* background-image: url("assets/images/x.jpg"); */
     /* background-image: url("assets/images/xx.jpg"); */
     background-size: 120%;
     width: auto;
@@ -148,6 +153,7 @@ a {
 #myCollapsingList>li>a {
     color: #3a318285;
     color: white;
+    /* color:rgba(151, 20, 20, 0.432); */
     margin-bottom: 1.5px;
     /* padding-right: 1.5px; */
     padding-bottom: 2.5%;
@@ -177,6 +183,7 @@ a {
     padding-right: 0;
     padding-left: 0;
     border-radius: 1.5em;
+    
     /* width: max-content; */
     /* text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.774); */
 
@@ -184,7 +191,7 @@ a {
 
 .navbar-toggle {
     background-color: #ffffff36;
-    background-color: #ffffff00;
+    background-color: #ffffff00;    
     /* padding-top: 10px; */
     /* margin-top: 10px; */
     border: 1px solid white;
@@ -207,6 +214,7 @@ a {
     border-radius: 1.5em;
     padding-top: 10px;
     border: 1px solid white;
+    font-size: 32px;
 }
 
 .navbar-nav {
@@ -229,7 +237,9 @@ a {
 
 .navbar-nav>li>a:hover {
     background-color: #ffffffb2;
+    /* background-color: rgba(151, 20, 20, 0.432); */
     color: #3a318285;
+    /* color: rgba(151, 20, 20, 0.432); */
 
     font-size: 32px;
     padding-right: 10%;
@@ -266,7 +276,7 @@ a {
     }
 
     .navbar-nav>li>a:hover {
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);        
     }
 
 
