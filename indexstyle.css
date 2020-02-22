@@ -143,7 +143,7 @@ nav a {
     background-image: url("assets/images/comp.jpeg");
     /* background-image: url("assets/images/ww.jpg");     */
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 .masthead {
     /* color: rgb(255, 255, 255); */
@@ -289,6 +289,27 @@ select {
     box-shadow: 10px 10px white;
     /* display: none; */
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#popIn {
+    display: none;
+    background-image: url("assets/images/aaa.png");
+    width: 100;
+    /* margin-bottom: 10%; */
+    /* background-position:  left bottom; */
+    /* background-position:  bottom left ; */
+    background-size: 30%;
+    /* background-attachment: fixed; */
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding-top: 1.7%;    
+    /* text-shadow: white; */
+    /* padding: 1%; */
+    border-radius: 2.5em;
+    /* width: 100%; */
+    /* margin-bottom: 15%; */
+    /* box-shadow: 2px 2px white; */
+    /* display: none; */
+    /* box-shadow: 0 4px 2px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
 }
 .contact-form_text {
     color: white;

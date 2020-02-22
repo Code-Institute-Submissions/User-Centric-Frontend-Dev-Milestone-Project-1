@@ -17,6 +17,8 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js">
 	</script>
 
+	
+
 	<script type="text/javascript">
 		(function () {
 			// emailjs.init("user_tCGWNZ01bkBaa5oF3FNbD");
@@ -66,7 +68,8 @@ MOVE to sep file
 			box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			text-align: right;
 		}
-		#myCollapsingList > li > a  {
+
+		#myCollapsingList>li>a {
 			color: #3a318285;
 			color: white;
 			margin-bottom: 1.5px;
@@ -98,8 +101,8 @@ MOVE to sep file
 			padding-right: 0;
 			padding-left: 0;
 			border-radius: 1.5em;
-			  /* text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.774); */
-			
+			/* text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.774); */
+
 		}
 
 		.navbar-toggle {
@@ -117,6 +120,7 @@ MOVE to sep file
 		.navbar-brand {
 			color: rgb(255, 255, 255);
 			line-height: 25px;
+			/* border: 1px solid white; */
 		}
 
 		.navbar-brand:hover {
@@ -124,6 +128,7 @@ MOVE to sep file
 			color: rgb(255, 255, 255);
 			border-radius: 1.5em;
 			padding-top: 10px;
+			border: 1px solid white;
 		}
 
 		.navbar-nav {
@@ -163,35 +168,30 @@ MOVE to sep file
 			/* box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 			/* box-shadow: 10px 14px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
 		}
+
 		@media (min-width: 768px) {
 
-    #myCollapsingList {
-		background-color: rgba(255, 255, 255, 0);
-        margin-top: 4px;
-        /* width: 70%; */
-        /* float: left; */
-    }
-    .navbar-nav>li>a:hover {
-        background-color: rgba(255, 255, 255, 0);    
-    }
-  
+			#myCollapsingList {
+				background-color: rgba(255, 255, 255, 0);
+				margin-top: 4px;
+				/* width: 70%; */
+				/* float: left; */
+			}
 
-}
+			.navbar-nav>li>a:hover {
+				background-color: rgba(255, 255, 255, 0);
+			}
+
+
+		}
 	</style>
 
 </head>
 
 <body>
-	<!-- <div class="container" id="orm"> -->
 
-	<!-- <div> -->
-	<!-- <h1 class="spacer"></h1> -->
-	<!-- </div> -->
-	<!-- </div> -->
-	<!-- <div class="jumpMenue"> -->
-	<!-- <br><br><br><br> -->
-	<!-- </div> -->
-	<!-- <br> -->
+
+
 	<nav class="navbar right navbar-dark">
 		<!-- <div class='container'> -->
 		<div id='navBG'>
@@ -200,41 +200,36 @@ MOVE to sep file
 
 				<a class="navbar-brand " href="index.html">{ M|m }</a>
 
-				<button type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
+				<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
+					data-target="#myCollapsingList">					
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 
 				</button>
-			</div>
+			</div>			
 			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
 				<li><a href="services.html">Services</a></li>
 				<li><a href="index.html#sec-fullstack">Skills</a></li>
 				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
-				<!-- <div class="jumpsMenue"> -->
-				<!-- <img src="assets/images/m.png" alt=""> -->
-				<!-- <h1 class="spacer"></h1> -->
-				<!-- </div> -->
 			</ul>
+
 		</div>
-		<!-- <div class="jumpMenue"></div> -->
+		<div class="container" id="popIn"></div>
 	</nav>
-
-
-
+	<!-- <div class="container" id="popIn"></div> -->
 	<div class="container" id="register-form">
 		<div><br><br></div>
 		<!-- <br> -->
-		<div class="form">
+		<div class="form" id="form">
 			<!-- <br><br> -->
-			<div class="note">
+			<div class="note" id="note">
 				<p>Fill out form below</p>
 			</div>
 			<!-- <br><br><hr> -->
-			<div class="form-content">
+			<div class="form-content" id="form-content">
 
 				<div class="col">
 
@@ -299,10 +294,10 @@ MOVE to sep file
 
 	</div>
 
-	<div class="spacer">
+	<!-- <div class="spacer">
 		<hr><br>
 		<h1>mac|</h1>
-	</div>
+	</div> -->
 
 	<!-- Branding Footer -->
 
@@ -321,6 +316,26 @@ MOVE to sep file
 	</script>
 
 	<script src="assets/js/sendEmail.js"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<!-- <script src="script.js"></script> -->
+
+	<script>
+		$(document).ready(function () {
+			$("#btnMenue").click(function () {
+				// $('.a').slideToggle('slow');
+				$('#myCollapsingList').fadeToggle('slow');
+				// $('#masthead').toggle();
+				$('#note').fadeToggle('slow');
+				$('#form-content').fadeToggle("slow");
+				$('#register-form').fadeToggle("slow");
+				$('#popIn').fadeToggle("slow");
+				
+				
+			});
+		});
+	</script>
 
 </body>
 
