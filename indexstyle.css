@@ -31,6 +31,24 @@
         padding-bottom: 22%;
     }
 
+    .sleekBorder {
+        background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: max-content;
+height: 100%;
+padding: 1%;
+padding-left: 3%;
+padding-right: 3%;
+box-shadow: 1px 1px 5px rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.394);
+border: 2px rgba(255, 255, 255, 0) solid;
+border-color: white;
+border-radius: 1.5em;
+margin-top: -32.5px;
+border-top: none;
+    }
+
 /* Globals --------------------------------------------------------------------------------------------------- */
 html {}
 body {
@@ -164,8 +182,8 @@ nav a {
     
 }
 .heroText {
-    border: 6px solid white;
-    background-color: rgba(0, 0, 0, 0.315);
+    /* border: 6px solid white; */
+    /* background-color: rgba(0, 0, 0, 0.315); */
     width: max-content;
     color: white;
     text-align: center;
@@ -183,8 +201,9 @@ nav a {
     margin-bottom: 10%;
 }
 #heroBtn {
-    background-color: rgba(0, 0, 0, 0.459);
-    border: 2px solid white;
+    /* background-color: rgba(0, 0, 0, 0.459); */
+    /* border: 2px solid white; */
+    margin-top: -30px;
     font-size: large;
     text-align: center;
     margin-bottom: 25px;
@@ -201,6 +220,22 @@ nav a {
     text-align: center;    
     color: white;
     text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.459);
+
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* width: max-content; */
+height: 100%;
+padding: 1%;
+padding-left: 3%;
+padding-right: 3%;
+box-shadow: 1px 1px 5px rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.394);
+border: 2px rgba(255, 255, 255, 0) solid;
+border-color: white;
+border-radius: 1.5em;
+margin-top: 10%;
+border-top: none;
 }
 #sec-fullstack {
     width: 100%;
@@ -217,16 +252,19 @@ nav a {
 
 /* index.html Section 2 --------------------------------------------------------------------------------- */
 #fullBG-marketing {
-    /* background-image: url("assets/images/b.jpg"); */
+    background-image: url("assets/images/xx.jpg");
     background-position: center;
+    background-size: 6%;
     width: 100%;
     height: 100%;
 }
 #fullBG-right {
     background-image: url("assets/images/a.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 350px;
+    width: 100%;
+    padding-bottom: 450px;
 
 
 }
@@ -235,6 +273,9 @@ nav a {
     background-position: center;
     background-size: cover;
     height: 350px;
+    width: 100%;
+    padding-bottom: 450px;
+    margin-bottom:5% ;
 
 }
 /* image Text Overlays ------------*/
@@ -246,14 +287,35 @@ h4 {
     padding: 2%;
     color: lawngreen;
 }
+.links {
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 175px;
+height: 100%;
+padding: 1%;
+/* padding-left: 3%; */
+/* padding-right: 3%; */
+box-shadow: 1px 1px 5px rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.118);
+border: 2px rgba(255, 255, 255, 0) solid;
+border-color: rgba(255, 255, 255, 0.219);
+/* border-color: rgb(0, 255, 13); */
+border-radius: 1.5em;
+margin-top: -32.5px;
+border-top: none;
+word-wrap: none;
+text-align: center;
+}
 .links p > a{
     text-align: center;
     position: bottom;
-    width: 50%;
+    width: 100%;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.466), rgb(49, 5, 47));
-    padding: 2%;
+    padding: 8%;
     /* color: white; */
     color: lawngreen;
+    border-radius: 1.5em;
 }
 small , strong ~ small{
     color: rgb(255, 255, 255);
@@ -476,16 +538,7 @@ h5 {
         padding-top: 10px;
         border: 1px solid white;
     }
-    .heroText {
-        border: 3px solid white;
-        background-color: rgba(0, 0, 0, 0.315);
-        width: max-content;
-        color: white;
-        text-align: center;
-        word-wrap: break-word;
-        margin: 0 auto;
-        margin-top: 20%;
-    }
+ 
     .navbar-brand {
         line-height: -25px;
         font-size: 32px;       
