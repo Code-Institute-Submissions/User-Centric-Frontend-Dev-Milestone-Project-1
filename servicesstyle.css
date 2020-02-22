@@ -4,6 +4,8 @@ html {
 }
 
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
     display: block;
     /* background-color: rgb(216, 65, 42); */
@@ -55,13 +57,13 @@ nav.navbar-dark {
 #myCollapsingList {
     /* background-color: rgba(99, 9, 9, 0.55); */
     /* text-shadow: 1px 1px 5px rgb(0, 0, 0);	 */
-    float: right;
+    /* float: right; */
 }
-
+/* 
 .navbar-toggle {
     background-color: rgba(255, 255, 255, 0.804);
 
-}
+} */
 
 .navbar-nav {
     /* background-color: red; */
@@ -69,7 +71,7 @@ nav.navbar-dark {
 }
 
 .icon-bar {
-    background-color: rgba(126, 3, 91, 0.475);
+    background-color: rgb(255, 255, 255);
 
 }
 
