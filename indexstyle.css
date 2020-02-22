@@ -318,7 +318,7 @@ select {
 .contact-form_text {
     color: white;
     text-align: center;
-    font-size: large;
+    font-size: 1em;
 }
 .input-group {
     margin: 0 auto;
@@ -392,7 +392,7 @@ input.form-control {
     border: 1px solid rgba(255, 255, 255, 0.212);
     border-radius: 1.5rem;
     background-color: rgba(0, 0, 0, 0.308);
-    background-color: rgba(37, 42, 124, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: rgb(255, 255, 255);
 }
 
@@ -452,7 +452,7 @@ h5 {
 .note > p {
     color: rgb(255, 255, 255);
     /* color: chartreuse; */
-    font-size: large;
+    font-size: 1.5em;
     text-shadow: 2px 3px 3px rgb(0, 0, 0);
     /* padding: 1%; */
     
@@ -464,6 +464,9 @@ h5 {
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 @media (max-width: 575px) {
+    .register-form {
+        /* width: 50%;       */
+    }
     .navbar-brand:hover {
         background-color: #ffffff36;
         color: rgb(255, 255, 255);
@@ -522,6 +525,9 @@ h5 {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .register-form {
+        width: 70%;
+    }
     .mobileSplashMenue {
         display: none;
     }
@@ -564,6 +570,10 @@ h5 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .register-form {
+        width: 60%;
+    }
+  
     .mobileSplashMenue {
         display: none;
     }
@@ -603,7 +613,10 @@ h5 {
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {    
+    .note {
+        background: rgba(0, 0, 0, 0.486);    
+    }
     #myCollapseingList {
         float: right;
         display: none;
