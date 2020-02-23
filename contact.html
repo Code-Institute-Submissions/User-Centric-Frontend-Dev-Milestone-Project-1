@@ -55,12 +55,12 @@ MOVE to sep file
 			height: 95%;
 			width: 100%;
 		}
-	
+
 		#navBG {
 			/* background-color: rgba(0, 0, 0, 0.205); */
 			background-position: top 79% left 25%;
 			/* background-image: url("assets/images/yy.jpg"); */
-			/* background-image: url("assets/images/xx.jpg"); */
+			background-image: url("assets/images/xx.jpg");
 			background-size: 120%;
 			width: auto;
 			/* float: right; */
@@ -76,7 +76,7 @@ MOVE to sep file
 			margin-bottom: 1.5px;
 			margin-right: 1.5px;
 			padding-bottom: 2.5%;
-			
+
 			/* background-color: rgba(0, 0, 0, 0.315); */
 			/* width: 80%;  */
 			/* padding:2%; */
@@ -97,16 +97,16 @@ MOVE to sep file
 			box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			text-align: right;
 			background-position: top 79% left 25%; 
-			background-image: url("assets/images/contactBG.jpg");
 			*/
 			/* width: 53%;			 */
 			/* background-color: #ffffff1e; */
 			/* background-color: white; */
 			background-size: 120%;
-			background-image: url("assets/images/xx.jpg");
-			background-position: top 79% left 25%;
+			/* background-image: url("assets/images/xx.jpg"); */
+			/* background-image: url("assets/images/contactBG.jpg"); */
+			background-position: bottom;
 			float: right;
-			margin-top: 1%;
+			margin-top: 10%;
 			overflow: hidden;
 			/* margin-right: 1%; */
 			/* padding-left: 0; */
@@ -114,7 +114,7 @@ MOVE to sep file
 			border-radius: 1.5em;
 			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
 			/* padding: 2%; */
-			
+
 		}
 
 		.navbar-toggle {
@@ -188,13 +188,29 @@ MOVE to sep file
 
 
 		@media (max-width: 767px) {
+			#myCollapsingList>li>a:hover {
+
+				padding-right: 0%;
+				/* width: 100%; */
+
+			}
+
+			#myCollapsingList {
+				background-color: rgba(255, 255, 255, 0);
+			}
+
 			#register-form {
-				width: 80%;
+				width: 90%;
 			}
 		}
 
 		@media (min-width: 768px) {
 
+			#myCollapsingList>li>a:hover {
+
+padding-right: 5%;
+
+}
 			#myCollapsingList {
 				background-color: rgba(255, 255, 255, 0);
 				margin-top: 4px;
@@ -205,7 +221,7 @@ MOVE to sep file
 
 			.navbar-nav>li>a:hover {
 				background-color: rgba(255, 255, 255, 0);
-				
+
 			}
 
 			#register-form {
@@ -213,44 +229,48 @@ MOVE to sep file
 			}
 
 		}
-		#popupMenue {			
+
+		#popupMenue {
 			display: none;
 			text-align: center;
 			/* margin-left: 10%; */
 		}
+
 		.overlay {
 			background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: max-content;
-    width: 100%;
-    /* height: 100%; */
-    /* padding: 1%;  */
-    padding-left: 5%; 
-    padding-right: 5%; 
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.493);
-	/* background-color: rgba(255, 255, 255, 0.394); */
-    border: 2px rgba(255, 255, 255, 0) solid;
-    border-color: rgba(255, 255, 255, 0.486);
-    border-radius: 1.5em;
-	margin-top: -77px;
-	padding-top: -50px;
-	border-top: none;
-	text-align: left;
-	color: white;
-	overflow: hidden;
-	/* margin-bottom: 30px; */
-	/* padding-bottom: 30px; */
-	/* display: block; */
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: max-content;
+			width: 100%;
+			/* height: 100%; */
+			/* padding: 1%;  */
+			padding-left: 5%;
+			padding-right: 5%;
+			box-shadow: 1px 1px 5px rgb(0, 0, 0);
+			background-color: rgba(0, 0, 0, 0.493);
+			/* background-color: rgba(255, 255, 255, 0.394); */
+			border: 2px rgba(255, 255, 255, 0) solid;
+			border-color: rgba(255, 255, 255, 0.486);
+			border-radius: 1.5em;
+			margin-top: -77px;
+			padding-top: -50px;
+			border-top: none;
+			text-align: left;
+			color: white;
+			overflow: hidden;
+			/* margin-bottom: 30px; */
+			/* padding-bottom: 30px; */
+			/* display: block; */
 		}
+
 		.overlay h1 {
 			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.74);
 		}
+
 		.popupMenue {
 			background-image: url("assets/images/xx.jpg");
-				/* background-color: rgba(0, 0, 0, 0.205); */
-				background-position: top 39% left 25%;
+			/* background-color: rgba(0, 0, 0, 0.205); */
+			background-position: top 39% left 25%;
 			/* background-image: url("assets/images/yy.jpg"); */
 			/* background-image: url("assets/images/xx.jpg"); */
 			background-size: 120%;
@@ -261,22 +281,24 @@ MOVE to sep file
 			text-align: right;
 			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
 		}
+
 		.serviceNav li {
-			
-    background-color: rgba(0, 0, 0, 0.394);
-    border: 2px rgba(255, 255, 255, 0) solid;
-    border-color: rgba(255, 255, 255, 0.278);
-	border-radius: 1.5em;
-	text-align: right;
-	border-top: none;
-	padding: 2.55%;
-	margin: 2%;
-	/* width:350px; */
-	
-	overflow: hidden;
-	text-decoration: none;
+
+			background-color: rgba(0, 0, 0, 0.394);
+			border: 2px rgba(255, 255, 255, 0) solid;
+			border-color: rgba(255, 255, 255, 0.278);
+			border-radius: 1.5em;
+			text-align: right;
+			border-top: none;
+			padding: 2.55%;
+			margin: 2%;
+			/* width:350px; */
+
+			overflow: hidden;
+			text-decoration: none;
 		}
-		.serviceNav li a:hover{
+
+		.serviceNav li a:hover {
 			/* box-shadow: 1px 1px 5px rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.394);
     border: 2px rgba(255, 255, 255, 0) solid;
@@ -324,8 +346,8 @@ MOVE to sep file
 				</div>
 
 				<!-- Services popupMenue -->
-				<div class="popupMenue">					
-					<div id="popupMenue">						
+				<div class="popupMenue">
+					<div id="popupMenue">
 						<div class="container">
 							<div class="overlay">
 								<h1></h1>
@@ -441,7 +463,7 @@ MOVE to sep file
 		<h1></h1>
 	</div>
 
-<br><br><br><br>
+	<br><br><br><br>
 
 	</div>
 
@@ -465,12 +487,12 @@ MOVE to sep file
 	<script src="https://code.jquery.com/jquery-3.2.1.js"
 		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<!-- <script src="script.js"></script> -->
-<!-- xxx -->
+	<!-- xxx -->
 	<script>
 		$(document).ready(function () {
 			$("#btnMenue").click(function () {
 				// $('.a').slideToggle('slow');
-				$('.navBG').css("background-image", "assets/images/xx.jpg");
+				// $('.navBG').css("background-image", "assets/images/xx.jpg");
 				$('#myCollapsingList').fadeToggle('fast');
 				// $('#masthead').toggle();
 				$('#note').fadeToggle('slow');

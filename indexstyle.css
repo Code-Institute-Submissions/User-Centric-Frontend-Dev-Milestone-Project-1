@@ -66,6 +66,8 @@ iframe {
     margin: 0 auto;
     width: 345px;
     height: 300px;
+    /* padding: 5%; */
+    /* margin: 5%; */
 }
 
 /* Nav ------------------------------------------------------------------------------------------------------- */
@@ -232,7 +234,7 @@ nav a {
     background-color: rgba(255, 255, 255, 0.24); */
 }
 #btnVm:hover {
-    padding: 4%;
+    font-size: x-large;
     border-radius: 1.5em;
     /* background-color: rgba(0, 0, 0, 0.24); */
 }
@@ -261,6 +263,7 @@ border-color: white;
 border-radius: 1.5em;
 margin-top: 10%;
 border-top: none;
+padding-bottom: 4%;
 }
 #sec-fullstack {
     width: 100%;
@@ -778,6 +781,7 @@ h5 {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {   
+
     .fs {
         /* width: 95%; */
     }
