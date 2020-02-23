@@ -37,30 +37,30 @@ MOVE to sep file
 
 	<style>
 		html {
-			/* background-color: black; */
+			background-color: black;
 
-			/* margin-bottom: 100%;                          */
 		}
 
 		body,
 		html {
 			/* background-color: rgba(0, 0, 0, 0.425); */
 			background-image: url("assets/images/contactBG.jpg");
+			background-image: url("assets/images/contactBGX.jpg");
 			/* background-image: url("assets/images/bg.png"); */
 			/* background-color: rgb(255, 255, 255); */
 			background-size: cover;
-			background-position: top;
+			background-position: bottom;
 			background-attachment: fixed;
 			padding-bottom: 10%;
 			height: 95%;
 			width: 100%;
 		}
-
+	
 		#navBG {
 			/* background-color: rgba(0, 0, 0, 0.205); */
 			background-position: top 79% left 25%;
-			background-image: url("assets/images/yy.jpg");
-			/* background-image: url("assets/images/xx.jpg"); */
+			/* background-image: url("assets/images/yy.jpg"); */
+			background-image: url("assets/images/xx.jpg");
 			background-size: 120%;
 			width: auto;
 			/* float: right; */
@@ -232,7 +232,8 @@ MOVE to sep file
 	text-align: left;
 	color: white;
 	overflow: hidden;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
+	/* padding-bottom: 30px; */
 	/* display: block; */
 		}
 		.serviceNav li {
@@ -247,7 +248,7 @@ MOVE to sep file
 	margin: 2%;
 	width:350px;
 	overflow: hidden;
-	
+	text-decoration: none;
 		}
 		.serviceNav li a:hover{
 			/* box-shadow: 1px 1px 5px rgb(0, 0, 0);
@@ -278,7 +279,7 @@ MOVE to sep file
 
 
 	<div class="display">
-		<nav class="navbar right navbar-dark">
+		<nav id="navBG" class="navbar right navbar-dark">
 			<!-- <div class='container'> -->
 			<div id='navBG'>
 
@@ -414,7 +415,7 @@ MOVE to sep file
 		<h1></h1>
 	</div>
 
-
+<br><br><br><br>
 
 	</div>
 
@@ -450,6 +451,7 @@ MOVE to sep file
 				$('#register-form').fadeToggle("fast");
 				$('#popIn').fadeToggle("slow");
 				$('#popupMenue').fadeToggle('fast');
+				$('#navBG').css("opacity", "100%");
 			});
 		});
 	</script>
