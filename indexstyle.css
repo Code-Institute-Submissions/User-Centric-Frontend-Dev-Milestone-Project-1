@@ -147,7 +147,7 @@ nav a {
     /* background-color: rgba(0, 0, 0, 0.205); */
     background-position: top 79% left 25%;
     /* background-image: url("assets/images/yy.jpg"); */
-    background-image: url("assets/images/xx.jpg");
+    /* background-image: url("assets/images/xx.jpg"); */
     background-size: 120%;
     width: auto;
     /* float: right; */
@@ -155,7 +155,7 @@ nav a {
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: right;
     border-radius: 0;
-    opacity: .8;
+    /* opacity: .4; */
 }
 
 
