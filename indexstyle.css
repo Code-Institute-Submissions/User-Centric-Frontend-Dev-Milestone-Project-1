@@ -198,7 +198,16 @@ nav a {
     margin-right: 25px;
 }
 .heroText > p {    
-    margin-bottom: 10%;
+    margin-bottom: 9.25%;
+    font-size: 1.6em;
+}
+#heroBtn button > a {
+    /* background-color: rgba(0, 0, 0, 0.459); */
+    /* border: 2px solid white; */
+    margin-top: -30px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 25px;
 }
 #heroBtn {
     /* background-color: rgba(0, 0, 0, 0.459); */
@@ -210,6 +219,20 @@ nav a {
 }
 .heroText > h5 {
     margin-top: 10%;
+}
+#btnVm {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+
+    /* padding: 4%;
+    border-radius: 1.5em;
+    background-color: rgba(255, 255, 255, 0.24); */
+}
+#btnVm:hover {
+    padding: 4%;
+    border-radius: 1.5em;
+    /* background-color: rgba(0, 0, 0, 0.24); */
 }
 
 
@@ -254,7 +277,7 @@ border-top: none;
 #fullBG-marketing {
     background-image: url("assets/images/xx.jpg");
     background-position: center;
-    background-size: 6%;
+    background-size: 56%;
     width: 100%;
     height: 100%;
 }
@@ -316,6 +339,13 @@ text-align: center;
     /* color: white; */
     color: lawngreen;
     border-radius: 1.5em;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    border-top: none;
+}
+.links p a:hover{
+    padding: 8%;
+    font-size: medium;
+    border: 1px solid rgba(30, 253, 0, 0.486);
 }
 small , strong ~ small{
     color: rgb(255, 255, 255);
@@ -382,6 +412,7 @@ select {
     color: white;
     text-align: center;
     font-size: 1em;
+    text-shadow: 2px 3px 3px rgb(156, 106, 28);
 }
 .input-group {
     margin: 0 auto;
@@ -453,11 +484,14 @@ input.form-control {
     margin: 0 auto;
     padding: 2.5%;
     /* margin-bottom: 200px; */
-    border: 1px solid rgba(255, 255, 255, 0.212);
+    border: 1px solid rgba(0, 0, 0, 0.612);
     border-radius: 1.5rem;
     /* background-color: rgba(92, 4, 4, 0.536); */
-    background-color: rgba(112, 17, 27, 0.35);
-    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.35);    
+}
+
+.contact-form_text {
+    color: rgba(0, 0, 0, 0.863);
 }
 
 h3 {
@@ -491,13 +525,17 @@ h5 {
 }
 
 #sbtbtn {    
-    color: rgba(255, 255, 255, 0.808);
+    /* color: rgba(255, 255, 255, 0.808); */
     /* background-color: rgba(0, 0, 0, 0.637); */
     background-color: rgba(0, 0, 0, 0.226);
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     border-radius: 1.5em;
     margin-bottom: 1% ;
+    border-color: black;
+}
+#sbtbtn:hover {    
+    border-color: white;
 }
 
 .note {
