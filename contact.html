@@ -17,7 +17,7 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js">
 	</script>
 
-	
+
 
 	<script type="text/javascript">
 		(function () {
@@ -78,10 +78,11 @@ MOVE to sep file
 			/* background-color: rgba(0, 0, 0, 0.315); */
 			/* width: 80%;  */
 		}
+
 		#myCollapsingList>li>a:hover {
 
 			padding-right: 10%;
-		
+
 		}
 
 		#myCollapsingList {
@@ -120,7 +121,7 @@ MOVE to sep file
 		}
 
 		.navbar-toggle:hover {
-			background-color: #ffffff9f;			
+			background-color: #ffffff9f;
 		}
 
 		.navbar-brand {
@@ -176,7 +177,7 @@ MOVE to sep file
 		}
 
 		.form-control {
-			border:2em;
+			border: 2em;
 		}
 
 
@@ -199,10 +200,72 @@ MOVE to sep file
 			.navbar-nav>li>a:hover {
 				background-color: rgba(255, 255, 255, 0);
 			}
+
 			#register-form {
 				/* width: 65%; */
 			}
 
+		}
+		#popupMenue {			
+			display: none;
+			text-align: center;
+			margin-left: 10%;
+		}
+		.overlay {
+			background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: max-content;
+    /* height: 100%; */
+    /* padding: 1%;  */
+    padding-left: 5%; 
+    padding-right: 5%; 
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.394);
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-color: white;
+    border-radius: 1.5em;
+	margin-top: -77px;
+	padding-top: -50px;
+	border-top: none;
+	text-align: left;
+	color: white;
+	overflow: hidden;
+	margin-bottom: 30px;
+	/* display: block; */
+		}
+		.serviceNav li {
+			box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.394);
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-color: white;
+	border-radius: 1.5em;
+	text-align: right;
+	border-top: none;
+	padding: 2.55%;
+	margin: 2%;
+	width:350px;
+	overflow: hidden;
+	
+		}
+		.serviceNav li a:hover{
+			/* box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.394);
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-color: white;
+	border-radius: 1.5em;
+	text-align: right;
+	border-top: none;
+	padding: 2.55%;
+	margin: 2%;
+	width:350px;
+	overflow: hidden; */
+			color: white;
+			text-decoration: none;
+			background-color: rgba(255, 255, 255, 0.394);
+			padding: 3.5%;
+			border-radius: 1.5em;
+			width: 100%;
 		}
 	</style>
 
@@ -213,32 +276,68 @@ MOVE to sep file
 
 	<div class="display">
 		<nav class="navbar right navbar-dark">
-		<!-- <div class='container'> -->
-		<div id='navBG'>
+			<!-- <div class='container'> -->
+			<div id='navBG'>
 
-			<div class="nav navbar-header ">
+				<div class="nav navbar-header ">
 
-				<a class="navbar-brand " href="index.html">{ M|m }</a>
+					<a class="navbar-brand " href="index.html">{ M|m }</a>
 
-				<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">					
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+					<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 
-				</button>
-			</div>			
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a href="services.html">Services</a></li>
-				<li><a href="index.html#sec-fullstack">Skills</a></li>
-				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>				
-			</ul>
-			
+					</button>
+				</div>
 
-		</div>
-		<div class="container" id="popIn"></div>
+				<!-- Services popupMenue -->
+				<div class="popupMenue">					
+					<div id="popupMenue">
+						<h1>.</h1>
+						<div class="container">
+							<div class="overlay">
+								<h1>Services</h1>
+								<div class="content">
+									<ul class="serviceNav">
+										<!-- <hr> -->
+										<li>
+											<a href="serviceLogo.html">Logo Branding Design</a>
+										</li>
+										<li>
+											<a href="serviceWebApp.html">Web/App Develoment </a>
+										</li>
+										<li>
+											<a href="serviceDply.html">Full Deployments</a>
+										</li>
+										<li>
+											<a href="serviceRedo.html">Web Site Overhauls</a>
+										</li>
+										<li>
+											<a href="serviceCompRp.html">Computer Repair</a>
+										</li>
+										<!-- <hr> -->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+					<li><a href="services.html">Services</a></li>
+					<li><a href="index.html#sec-fullstack">Skills</a></li>
+					<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+
+
+			</div>
+
+
+			<div class="container" id="popIn"></div>
 		</nav>
 	</div>
 	<!-- <div class="container" id="popIn"></div> -->
@@ -333,8 +432,9 @@ MOVE to sep file
 	<script src="assets/js/sendEmail.js"></script>
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<!-- <script src="script.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<!-- <script src="script.js"></script> -->
 
 	<script>
 		$(document).ready(function () {
@@ -345,7 +445,8 @@ MOVE to sep file
 				$('#note').fadeToggle('slow');
 				$('#form-content').fadeToggle("slow");
 				$('#register-form').fadeToggle("fast");
-				$('#popIn').fadeToggle("slow");											
+				$('#popIn').fadeToggle("slow");
+				$('#popupMenue').fadeToggle('fast');
 			});
 		});
 	</script>
