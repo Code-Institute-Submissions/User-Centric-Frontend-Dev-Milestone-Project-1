@@ -592,11 +592,17 @@ h5 {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
-
+@media (max-width: 371px) { 
+    #d3_fullstack , iframe {
+        display: none;
+    }
+}
 @media (max-width: 575px) {
-    /* #fullBG-right , #fullBG-left {
-        width:96%;
-    } */
+    #fullBG-right , #fullBG-left {
+        margin: 0;
+        width:100%;
+        margin-top: 5%;
+    }
     #masthead {
         margin-top: 20%;
     }
@@ -658,9 +664,9 @@ h5 {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #fullBG-right, #fullBG-left {
+    /* #fullBG-right, #fullBG-left {
         width: 94%;
-    }
+    } */
     #masthead {
         margin-top: 15%;
     }
@@ -821,9 +827,9 @@ h5 {
         margin-top: 5%;
     }
 
-    .fs {
-        /* width: 95%; */
-    }
+    /* .fs {
+        width: 95%;
+    } */
     #fullBG-marketing {
         width: 100%;
         height: 900px;
