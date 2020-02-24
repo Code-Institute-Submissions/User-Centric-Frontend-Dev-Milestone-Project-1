@@ -194,6 +194,7 @@ nav a {
     word-wrap: break-word;
     margin: 0 auto;
     margin-top: 10%;
+    margin-bottom: 15;
         
 }
 .heroText > h1 {
@@ -261,7 +262,7 @@ background-color: rgba(0, 0, 0, 0.394);
 border: 2px rgba(255, 255, 255, 0) solid;
 border-color: white;
 border-radius: 1.5em;
-margin-top: 10%;
+margin-top: 4%;
 border-top: none;
 padding-bottom: 4%;
 }
@@ -692,6 +693,12 @@ h5 {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    heroText {
+        
+        margin-top: 15%;
+        
+            
+    }
     #register-form {
         width: 70%;
     }
