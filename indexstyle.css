@@ -1,32 +1,32 @@
 .mobileSplashMenue{
     /* visibility: .2%; */
-    overflow: hidden;
+    /* overflow: hidden;
     
     width: 600px;
     height: 150px;
-    background-image: url("assets/images/mLog.png");
+    background-image: url("assets/images/mLog.png"); */
     /* background-image: url("assets/images/comp.jpeg"); */
     /* transform: scaleX(-1); */
-    
+/*     
     transform-origin: top right ;
     background-attachment: scroll;
     background-position: center bottom;
     background-size: 126%;
     transform: rotate(-12deg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
-	.mobileSplash-BottomMenue{
-        /* visibility: hidden; */
-        /* overflow: hidden; */
-        
-        /* height: 50%; */
+
+/* .mobileSplash-BottomMenue{
+     visibility: hidden; 
+     overflow: hidden; 
+     background-image: url("assets/images/comp.jpeg"); 
+     height: 50%; 
         background-image: url("assets/images/mLog.png");
-        /* background-image: url("assets/images/comp.jpeg"); */
         background-attachment: scroll;
         background-position: center bottom;
         background-size: 141%;
         background-repeat: no-repeat;
-    }
+    } */
     .spacer {
         padding-bottom: 22%;
     }
@@ -108,31 +108,32 @@ nav.navbar-dark {
 .navbar-toggle {
     background-color: #ffffff36;
     background-color: #ffffff00;
-    /* padding-top: 10px; */
+    padding-top: 10px;
     /* margin-top: 10px; */
     border: 1px solid white;
     z-index: 1;
+    /* background-image: url("assets/images/xx.jpg"); */
 }
 
 .navbar-toggle:hover {
-    background-color: #ffffff9f;
+    background-color: #ffffff;
 }
 #myCollapsingList {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.215);
     background-position: left top -20% ;
     background-repeat: no-repeat;
     background-size: 220%;
-    overflow: hidden;
-    /* padding-top: 10%; */
+    /* overflow: hidden; */
+    padding-top: 10%;
     /* background-image: url("assets/images/comp1.jpeg"); */
-    /* background-image: url("assets/images/x.jpg"); */
+    background-image: url("assets/images/xx.jpg");
     background-position: left bottom ;
     width: max-content;
     float: right;
     text-align: right;
     width:max-content;			
     margin: 0 auto;
-    margin-top: -15%;
+    /* margin-top: -78px; */
     height: 100%;
     width: 100%;
     /* padding-bottom: 60%; */
@@ -353,6 +354,7 @@ text-align: center;
     border-radius: 1.5em;
     border: 1px solid rgba(255, 255, 255, 0.486);
     border-top: none;
+    /* width:500px; */
 }
 .links p a:hover{
     padding: 8%;
@@ -621,6 +623,7 @@ h5 {
         border-radius: 1.5em;
         padding-top: 10px;
         border: 1px solid white;
+
     }
  
     .navbar-brand {
@@ -633,7 +636,7 @@ h5 {
         font-size: 32px;
         border-radius: 3.5em;
         /* width: 85%; */
-        /* margin-left: 14%; */
+        margin-left: 14%;
     
     }
 
@@ -736,8 +739,12 @@ h5 {
         display: none;
     }
     #myCollapsingList {
-        margin-top: -78px;
+        /* margin-top: -78px; */
         width: max-content;
+        background-image: url("assets/images/xx.jpg");
+        background-image: none;
+        background-color: black;
+        background-position: center;
         /* float: right; */
     }
     .navbar-nav>li>a:hover {
@@ -791,8 +798,12 @@ h5 {
     }
     #myCollapsingList {
         margin-top: -78px;
-        /* width: 70%; */
-        /* float: left; */
+        width: max-content;
+        background-image: url("assets/images/xx.jpg");
+        background-image: none;
+        background-color: black;
+        background-position: center;
+        /* float: right; */
     }
     .navbar-nav>li>a:hover {
         background-color: rgba(255, 255, 255, 0);
@@ -816,7 +827,7 @@ h5 {
         /* margin-left: 14%; */
     }
     #myCollapseingList {
-        float: right;
+        /* float: right; */
     }
 
 }
@@ -839,7 +850,7 @@ h5 {
     }
     #myCollapseingList {
         float: right;
-        display: none;
+        /* display: none; */
     }
     .navbar-nav .navbar-collapse{
         float: right;
