@@ -359,6 +359,9 @@ text-align: center;
     font-size: medium;
     border: 1px solid rgba(30, 253, 0, 0.486);
 }
+.text-right {
+    width: 100%;
+}
 .text-left~p,
 h4 {
     text-align: center;
@@ -591,6 +594,18 @@ h5 {
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 @media (max-width: 575px) {
+    /* #fullBG-right , #fullBG-left {
+        width:96%;
+    } */
+    #masthead {
+        margin-top: 20%;
+    }
+    #fs {
+        width: 100%;
+    }
+    #fullBG-marketing {
+        width: 100%;
+    }
     #register-form {
         /* width: 50%;       */
     }
@@ -643,6 +658,12 @@ h5 {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    #fullBG-right, #fullBG-left {
+        width: 94%;
+    }
+    #masthead {
+        margin-top: 15%;
+    }
     .navbar-brand:hover {
         background-color: #ffffff36;
         color: rgb(255, 255, 255);
@@ -689,16 +710,16 @@ h5 {
     text-align: center; */
     margin-top: 7.5px;
     }
+
+ 
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    heroText {
-        
-        margin-top: 15%;
-        
-            
+    #masthead {
+        margin-top: 10%;        
     }
+ 
     #register-form {
         width: 70%;
     }
@@ -740,10 +761,18 @@ h5 {
     body{
         /* display:none; */
     }
+    #fullBG-marketing {
+        width: 100%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   
+    #masthead {
+        margin-top: 5%;
+        /* display: none; */
+    }
     #register-form {
         width: 60%;
     }
@@ -788,6 +817,9 @@ h5 {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {   
+    #masthead {
+        margin-top: 5%;
+    }
 
     .fs {
         /* width: 95%; */
