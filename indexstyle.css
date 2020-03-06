@@ -863,7 +863,7 @@ h5 {
         display: none;
     }
     #myCollapsingList {
-        margin-top: -78px;
+        /* margin-top: -78px; */
         /* width: 70%; */
         /* float: left; */
     }
