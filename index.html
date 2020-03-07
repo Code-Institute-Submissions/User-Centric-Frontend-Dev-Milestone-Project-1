@@ -64,12 +64,40 @@
 					<div class="mobileSplash-BottomMenue">
 						<!-- <h1 class="spacer"></h1> -->
 					</div>
-					<!-- <div class="jumpMenueX">
-						<h1 class="spacer"></h1>
-					</div> -->
+				<!-- Services popupMenue -->
+			
 				</ul>
 			</div>
 		</nav>
+
+
+<div id="popOLay" class="container">
+	<div class="overlay">
+		<h1></h1>
+		<h1>Services</h1>
+		<div class="content">
+			<ul class="serviceNav">
+				<!-- <hr> -->
+				<li>
+					<a href="serviceLogo.html">Logo Branding Design</a>
+				</li>
+				<li>
+					<a href="serviceWebApp.html">Web/App Develoment</a>
+				</li>
+				<li>
+					<a href="serviceDply.html">Full Deployments</a>
+				</li>
+				<li>
+					<a href="serviceRedo.html">Web Site Overhauls</a>
+				</li>
+				<li>
+					<a href="serviceCompRp.html">Computer Repair</a>
+				</li>
+				<!-- <hr> -->
+			</ul>
+		</div>
+	</div>
+</div>
 
 
 		<!-- Landing Page Main Heading -->
@@ -91,6 +119,8 @@
 	</div>
 	<!------------------------------------------- Main Nav & Header display
 _END -->
+
+
 
 	<!-- iFrames & D3 charts Fullstack Section 1 --->
 	<div id="sec-fullstack" class="container">
@@ -193,6 +223,7 @@ _END -->
 	<!--------------- Fullstack Services Marketing Section 2
 _END -->
 
+
 	<!-- Branding Footer -->
 	<footer id="footer-background" class="container">
 		<div id="footer-container">
@@ -203,6 +234,7 @@ _END -->
 	</footer>
 	<!--------------------------------------- Branding Footer 
 _END -->
+
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -223,17 +255,23 @@ _END -->
 		$(document).ready(function () {
 			$("#btnMenue").click(function () {
 				// $('.a').slideToggle('slow');
-				$('#myCollapsingList').fadeToggle('slow');
-				// $('#masthead').toggle();
+				// $('#display').css("height", "0px");
+				// $('#display').slideToggle("slow");
+				// $('.a').slideUp('1000');			
+
 				$('#masthead').fadeToggle('slow');
 				$('#sec-fullstack').fadeToggle("slow");
 				$('#fullBG-marketing').fadeToggle("slow");
-				// $('.a').slideUp('1000');			
+				$('#myCollapsingList').fadeToggle('slow');
+				$('#popIn').fadeToggle("slow");
+				$('#popupMenue').fadeToggle('fast');
+				$('#popOLay').fadeToggle('fast');
 			});
 	
 			
 		});
 	</script>
+	
 </body>
 
 </html>

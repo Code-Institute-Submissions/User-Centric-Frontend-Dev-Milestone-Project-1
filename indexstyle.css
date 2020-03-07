@@ -1,32 +1,31 @@
-.mobileSplashMenue{
-    /* visibility: .2%; */
-    /* overflow: hidden;
-    
-    width: 600px;
-    height: 150px;
-    background-image: url("assets/images/mLog.png"); */
-    /* background-image: url("assets/images/comp.jpeg"); */
-    /* transform: scaleX(-1); */
-/*     
-    transform-origin: top right ;
-    background-attachment: scroll;
-    background-position: center bottom;
-    background-size: 126%;
-    transform: rotate(-12deg);
-    background-repeat: no-repeat; */
+#popOLay {
+    height: 400px;
+    display: inline;
+    top: -400px;
+    display: none;
 }
 
-/* .mobileSplash-BottomMenue{
-     visibility: hidden; 
-     overflow: hidden; 
-     background-image: url("assets/images/comp.jpeg"); 
-     height: 50%; 
-        background-image: url("assets/images/mLog.png");
-        background-attachment: scroll;
-        background-position: center bottom;
-        background-size: 141%;
-        background-repeat: no-repeat;
-    } */
+
+#popupMenue {
+    display: none;
+    text-align: center;
+    /* margin-left: 10%; */
+}
+
+.popupMenue {
+    background-image: url("assets/images/xx.jpg");
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-position: top 39% left 25%;
+    /* background-image: url("assets/images/yy.jpg"); */
+    /* background-image: url("assets/images/xx.jpg"); */
+    background-size: 120%;
+    width: auto;
+    /* float: right; */
+    margin-top: -30px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: right;
+    text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
+}
     .spacer {
         padding-bottom: 22%;
     }
@@ -124,7 +123,7 @@ nav.navbar-dark {
     background-repeat: no-repeat;
     background-size: 220%;
     /* overflow: hidden; */
-    padding-top: 10%;
+    /* padding-top: 10%; */
     /* background-image: url("assets/images/comp1.jpeg"); */
     background-image: url("assets/images/xx.jpg");
     background-position: left bottom ;
@@ -133,7 +132,7 @@ nav.navbar-dark {
     text-align: right;
     width:max-content;			
     margin: 0 auto;
-    /* margin-top: -78px; */
+    margin-top: -78px;
     height: 100%;
     width: 100%;
     /* padding-bottom: 60%; */
@@ -590,6 +589,94 @@ h5 {
     
 }
 
+.overlay {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: max-content;
+    width: 100%;
+    /* height: 100%; */
+    /* padding: 1%;  */
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.493);
+    /* background-color: rgba(255, 255, 255, 0.394); */
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-color: rgba(255, 255, 255, 0.486);
+    border-radius: 1.5em;
+    margin-top: -7px;
+    padding-top: -50px;
+    border-top: none;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    /* margin-bottom: 30px; */
+    /* padding-bottom: 30px; */
+    /* display: block; */
+}
+
+.overlay h1 {
+    text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.74);
+}
+
+.popupMenue {
+    background-image: url("assets/images/xx.jpg");
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-position: top 39% left 25%;
+    /* background-image: url("assets/images/yy.jpg"); */
+    /* background-image: url("assets/images/xx.jpg"); */
+    background-size: 120%;
+    width: auto;
+    /* float: right; */
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: right;
+    text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
+}
+
+.serviceNav li {
+
+    background-color: rgba(0, 0, 0, 0.394);
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-color: rgba(255, 255, 255, 0.278);
+    border-radius: 1.5em;
+    text-align: right;
+    border-top: none;
+    padding: 2.55%;
+    margin: 2%;
+    /* width:350px; */
+
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.serviceNav li a {
+    color: white;
+}
+
+.serviceNav li a:hover {
+    /* box-shadow: 1px 1px 5px rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.394);
+border: 2px rgba(255, 255, 255, 0) solid;
+border-color: white;
+border-radius: 1.5em;
+text-align: right;
+border-top: none;
+padding: 2.55%;
+margin: 2%;
+width:350px;
+overflow: hidden; */
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.194);
+    padding: 3.5%;
+    border-radius: 1.5em;
+    width: 100%;
+    padding-right: 30%;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -661,7 +748,7 @@ h5 {
     border-top: none;
     word-wrap: none;
     text-align: center; */
-    margin-top: 27.5px;
+    /* margin-top: 27.5px; */
     }
 }
 
@@ -739,7 +826,7 @@ h5 {
         display: none;
     }
     #myCollapsingList {
-        /* margin-top: -78px; */
+        margin-top: -78px;
         width: max-content;
         background-image: url("assets/images/xx.jpg");
         background-image: none;
