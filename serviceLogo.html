@@ -14,151 +14,139 @@
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
 	<link rel="stylesheet" href="assets/css/servicesstyle.css">
 
-	<style>		
+	<!-- FAVicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="fav/site.webmanifest">
+
+	<!-- iMessage smsImage Display -->
+	<meta property="og:title" content="{ MAC|media } User Centric Frontend Project" />
+	<meta property="og:image" content="x.png" />
+
+	<style>
 		body {
 			background-image: url("assets/images/y.jpg");
 			background-position: top center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			-moz-background-attachment: fixed;
-    -webkit-background-attachment: fixed;
-    background-attachment: fixed;
-			
-			
+			-webkit-background-attachment: fixed;
+			background-attachment: fixed;
 		}
+
 		hr {
-			border-top:1px solid #000;
+			border-top: 1px solid #000;
 		}
+
 		#serviceLogo {
-			/* background-color: rgba(226, 130, 19, 0.411); */
+			width: 320px;
+			text-align: center;
+			background-color: rgba(255, 167, 0, 0.43);
+			height: max-content;
+			border: 4px solid #000000;
+			border-radius: 1.5em;
+			overflow: hidden;
+			padding: 5%;
+			border-top: none;
+			border-bottom: none;
 
-			width: 320px;    
-	text-align: center;
-	/* background-color: rgba(255, 255, 255, 0.432); */
-	background-color: rgba(255, 167, 0, 0.43);
-    height: max-content;
-    border: 4px solid #000000;
-    border-radius: 1.5em;
-	overflow: hidden;
-	padding: 5%;
-	border-top: none;
-	border-bottom: none;
- 
-}
-#Infotext {
-	/* border: 2px solid rgba(255, 0, 0, 0.404); */
-	/* background-color: rgba(0, 0, 0, 0.753); */
-    /* padding-bottom: 10px;     */
-	
-	/* background-color: rgba(219, 106, 0, 0.442); */
-	background-color: rgba(255, 255, 255, 0.488);
-    padding-top: 1px;
-	color: rgb(255, 255, 255);
-	border: 2px solid rgb(255, 255, 255);
-	border-radius: 1.5em;
-	color: rgb(255, 255, 255);
+		}
 
+		#Infotext {
+			background-color: rgba(255, 255, 255, 0.488);
+			padding-top: 1px;
+			color: rgb(255, 255, 255);
+			border: 2px solid rgb(255, 255, 255);
+			border-radius: 1.5em;
+			color: rgb(255, 255, 255);
+			padding-top: 1px;
+			color: rgb(255, 255, 255);
+			border: 2px solid rgb(0, 0, 0);
+			border-radius: 1.5;
+			color: rgba(0, 0, 0, 0.829);
+		}
 
-	/* background-color: rgba(36, 3, 3, 0.103); */
-	/* background-color: rgba(0, 0, 0, 0.753); */
-    padding-top: 1px;
-    /* padding-bottom: 10px;     */
-	color: rgb(255, 255, 255);
-	/* border: 2px solid #ffffff; */
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 1.5;
-	/* color: rgb(0, 0, 0); */
-	color: rgba(0, 0, 0, 0.829);
-}
-.navbar-brand {
-    color: rgb(255, 255, 255);
-    line-height: 25px;
-    font-size: 32px;
-    /* border: 1px solid white; */
-}
-
-.serviceNav {
-	/* font-size: 14px; */
-}
-
- 
+		.navbar-brand {
+			color: rgb(255, 255, 255);
+			line-height: 25px;
+			font-size: 32px;
+		}
 	</style>
 
 </head>
 
 <body>
 
+	<div class="display">
 
+		<nav class="navbar right navbar-dark">
+			<div class='container' id="navBG">
+				<div class="nav navbar-header ">
 
-	<nav class="navbar right navbar-dark">
-		<div class='container' id="navBG">
-			<div class="nav navbar-header ">
+					<a id="brand" class="navbar-brand " href="index.html">{ M|m }</a>
 
-				<a id="brand" class="navbar-brand " href="index.html">{ M|m }</a>
+					<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 
-				<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-				</button>
-			</div>
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a class="active" href="services.html">Services</a></li>
-				<li><a href="index.html#sec-fullstack">Skills</a></li>
-				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!-- </div> -->
-
-	<div class="container">
-		<div class="overlay">
-			<h1>Branding</h1>
-			<div class="content">
-				<ul class="serviceNav">
-					<!-- <hr> -->
-					<li>
-						<a href="serviceLogo.html">Logo Branding Design</a>
-					</li>
-					<li>
-						<a href="serviceWebApp.html">Web/App Develoment </a>
-					</li>
-					<li>
-						<a href="serviceDply.html">Full Deployments</a>
-					</li>
-					<li>
-						<a href="serviceRedo.html">Web Site Overhauls</a>
-					</li>
-					<li>
-						<a href="serviceCompRp.html">Computer Repair</a>
-					</li>
-					<!-- <hr> -->
+					</button>
+				</div>
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+					<li><a class="active" href="services.html">Services</a></li>
+					<li><a href="index.html#sec-fullstack">Skills</a></li>
+					<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-		</div>
-	</div>
+		</nav>
 
-	
-	<div class="container serviceInfo" id="serviceInfo">
-		<div id="serviceLogo">
-			
-			<div id="Infotext">
-				<h1>Custom Logo WebKits</h1>
-				<hr>
-				<a id = "req" href="contact.html">Submit A Request!</a>
-				<br><br>
-				<p>WebKits Includes Custom Vector's And SVG's.</p>
+		<div class="container">
+			<div class="overlay">
+				<h1>Branding</h1>
+				<div class="content">
+					<ul class="serviceNav">
+						<li>
+							<a href="serviceLogo.html">Logo Branding Design</a>
+						</li>
+						<li>
+							<a href="serviceWebApp.html">Web/App Develoment </a>
+						</li>
+						<li>
+							<a href="serviceDply.html">Full Deployments</a>
+						</li>
+						<li>
+							<a href="serviceRedo.html">Web Site Overhauls</a>
+						</li>
+						<li>
+							<a href="serviceCompRp.html">Computer Repair</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<!-- <br> -->
 		</div>
-		<br><br><br><br>
-	</div>
 
-	<div id="spacer"></div>
+
+		<div class="container serviceInfo" id="serviceInfo">
+			<div id="serviceLogo">
+
+				<div id="Infotext">
+					<h1>Custom Logo WebKits</h1>
+					<hr>
+					<a id="req" href="contact.html">Submit A Request!</a>
+					<br><br>
+					<p>WebKits Includes Custom Vector's And SVG's.</p>
+				</div>
+			</div>
+			<br><br><br><br>
+		</div>
+
+		<div id="spacer"></div>
+
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -172,20 +160,16 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<!-- <script src="script.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
 	<script>
 		$(document).ready(function () {
 			$("#btnMenue").click(function () {
-				// $('.a').slideToggle('slow');
 				$('#myCollapsingList').fadeToggle('fast');
-				// $('#masthead').toggle();
 				$('#serviceAplus').fadeToggle("slow");
 				$('#serviceInfo').fadeToggle('slow');
 				$('#spacer').fadeToggle("slow");
-				// $('.a').slideUp('1000');
-				
 			});
 		});
 	</script>

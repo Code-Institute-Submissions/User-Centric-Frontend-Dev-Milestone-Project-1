@@ -1,6 +1,6 @@
 html {
     width: 100%;
-    height: max-content;
+    height: 100%;
 }
 
 body {
@@ -8,7 +8,6 @@ body {
         Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
     display: block;
-    /* background-color: rgb(216, 65, 42); */
     background-image: url("assets/images/z.jpg");
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -17,7 +16,7 @@ body {
     -webkit-background-attachment: fixed;
     background-attachment: fixed;
     color: white;
-    background-position: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
 }
@@ -30,7 +29,6 @@ body {
 
 .nav {
     text-shadow: 10px 10px 20px black;
-
 }
 
 .navbar a {
@@ -43,8 +41,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: max-content;
-    /* height: 100%; */
-    /* padding: 1%;  */
     padding-left: 3%;
     padding-right: 3%;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
@@ -60,10 +56,6 @@ a {
     color: white;
 }
 
-
-
-
-
 .serviceNav {
     list-style: none;
     background-color: rgba(0, 0, 0, 0.168);
@@ -78,11 +70,7 @@ a {
     padding-right: 10px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-top: none;
-
-
 }
-
-
 
 .serviceInfo {
     color: rgb(255, 255, 255);
@@ -90,8 +78,6 @@ a {
     background-position: center;
     margin-top: 2%;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
-    
-
 }
 
 #serviceInfo {
@@ -119,10 +105,7 @@ a {
 
 #serviceImg {
     padding: 5%;
-    /* background-color: rgba(255, 0, 0, 0.493); */
     border-radius: 15%;
-    /* border: 1px solid white; */
-
 }
 
 #Infotext {
@@ -134,7 +117,6 @@ a {
 }
 
 #req {
-
     padding: 2.5%;
     background-color: rgba(255, 34, 0, 0.514);
     background-color: rgba(0, 0, 0, 0.414);
@@ -144,46 +126,30 @@ a {
     border-top: 1px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-
-    
-
-    
 }
 
 #req:hover {
-    
-    /* padding: 2.5%; */
     background-color: rgba(255, 255, 255, 0.214);
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1.5em;
     border: 1px solid white;
     border-bottom: none;
-    border-top: none;
-    /* margin-bottom: 5%; */
+    border-top: none;    
     display: block;
     width: max-content;
     text-align: center;
     margin: 0 auto;
-    
     color: black;
-}
-
-#spacer {
-    /* margin-bottom: 50px; */
 }
 
 .navbar-nav {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#navBG {
-    /* background-color: rgba(0, 0, 0, 0.205); */
+#navBG {    
     background-position: top 79% left 25%;
-    /* background-image: url("assets/images/x.jpg"); */
-    /* background-image: url("assets/images/xx.jpg"); */
     background-size: 120%;
     width: auto;
-    /* float: right; */
     margin: 0;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: right;
@@ -192,47 +158,23 @@ a {
 #myCollapsingList>li>a {
     color: #3a318285;
     color: white;
-    /* color:rgba(151, 20, 20, 0.432); */
     margin-bottom: 1.5px;
-    /* padding-right: 1.5px; */
     padding-bottom: 2.5%;
-    /* background-color: rgba(0, 0, 0, 0.315); */
-    /* width: 80%;  */
 }
 
 #myCollapsingList {
-    /* 
-			background-image: url("assets/images/yy.jpg");
-			background-size: 120%;
-			width: auto;
-			margin: 0;
-			box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			text-align: right;
-			background-position: top 79% left 25%; 
-			background-image: url("assets/images/contactBG.jpg");
-			*/
-    /* width: 53%;			 */
-    background-image: url("assets/images/xx.jpg");
-    /* background-color: #ffffff1e; */
-    /* background-color: white; */
     background-size: 120%;
     background-position: top 79% left 25%;
     float: right;
     margin-top: 1%;
-    padding-right: 0;
+    padding-right: 0; 
     padding-left: 0;
     border-radius: 1.5em;
-
-    /* width: max-content; */
-    /* text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.774); */
-
 }
 
 .navbar-toggle {
     background-color: #ffffff36;
     background-color: #ffffff00;
-    /* padding-top: 10px; */
-    /* margin-top: 10px; */
     border: 1px solid white;
 }
 
@@ -244,8 +186,6 @@ a {
     color: rgb(255, 255, 255);
     line-height: 25px;
     font-size: 32px;
-    padding-top: -15px;
-    /* border: 1px solid white; */
     padding-bottom: 10px;
 }
 
@@ -259,42 +199,29 @@ a {
 }
 
 .navbar-nav {
-    /* padding-bottom: 75%; */
     width: 100%;
-    position: right;
     background-color: rgb(255, 255, 255);
 }
 
 .icon-bar {
-    /* background-color: rgba(168, 247, 23, 0.973); */
-    background-color: rgb(255, 255, 255);
-    /* border: 1px solid rgb(255, 255, 255);			 */
+    background-color: rgb(255, 255, 255);    
 }
 
 .navbar-dark {
     background: rgba(255, 255, 255, 0);
-    /* background-image: url("fds"); */
 }
 
 .navbar-nav>li>a:hover {
-    background-color: #ffffffb2;
-    /* background-color: rgba(151, 20, 20, 0.432); */
     color: #3a318285;
-    /* color: rgba(151, 20, 20, 0.432); */
-
+    background-color: #ffffffb2;
+    background-color: rgba(255, 255, 255, 0.182);
     font-size: 32px;
     padding-right: 10%;
     border-radius: 1.5em;
-    /* width: 85%; */
-    /* margin-left: 20%; */
-    background-color: rgba(255, 255, 255, 0.182);
-
 }
 
 .form {
     width: 90%;
-    /* box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    /* box-shadow: 10px 14px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
 }
 
 .navbar-nav {
