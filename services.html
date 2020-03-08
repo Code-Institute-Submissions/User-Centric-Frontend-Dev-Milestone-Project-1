@@ -14,83 +14,90 @@
 	<link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
 	<link rel="stylesheet" href="assets/css/servicesstyle.css">
 
+	<!-- FAVicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="fav/site.webmanifest">
 
+	<!-- iMessage smsImage Display -->
+	<meta property="og:title" content="{ MAC|media } User Centric Frontend Project" />
+	<meta property="og:image" content="x.png" />
 
 </head>
 
 <body>
 
+	<div class="display">
 
+		<nav class="navbar right navbar-dark">
+			<div class='container' id="navBG">
+				<div class="nav navbar-header ">
 
-	<nav class="navbar right navbar-dark">
-		<div class='container' id="navBG">
-			<div class="nav navbar-header ">
+					<a id="brand" class="navbar-brand " href="index.html">{ M|m }</a>
 
-				<a id="brand" class="navbar-brand " href="index.html">{ M|m }</a>
+					<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
+						data-target="#myCollapsingList">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 
-				<button id="btnMenue" type="button" class="navbar-toggle right" data-toggle="collapse"
-					data-target="#myCollapsingList">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-				</button>
-			</div>
-			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a class="active" href="services.html">Services</a></li>
-				<li><a href="index.html#sec-fullstack">Skills</a></li>
-				<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!-- </div> -->
-
-	<div class="container">
-		<div class="overlay">
-			<h1>Services</h1>
-			<div class="content">
-				<ul class="serviceNav">
-					<!-- <hr> -->
-					<li>
-						<a href="serviceLogo.html">Logo Branding Design</a>
-					</li>
-					<li>
-						<a href="serviceWebApp.html">Web/App Develoment </a>
-					</li>
-					<li>
-						<a href="serviceDply.html">Full Deployments</a>
-					</li>
-					<li>
-						<a href="serviceRedo.html">Web Site Overhauls</a>
-					</li>
-					<li>
-						<a href="serviceCompRp.html">Computer Repair</a>
-					</li>
-					<!-- <hr> -->
+					</button>
+				</div>
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+					<li><a class="active" href="services.html">Services</a></li>
+					<li><a href="index.html#sec-fullstack">Skills</a></li>
+					<li><a href="index.html#fullBG-marketing">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-		</div>
-	</div>
+		</nav>
 
-	<div class="container serviceInfo" id="serviceInfo">
-		<div id="serviceAplus">
-			<br>
-			<img src="assets/images/aaa.png" alt="" id="serviceImg">
-			
-			<div id="Infotext">
-				<h1>Miguel Camacho</h1>
-				<p>FullStack Web Developer</p>
-				<p>Computer Tech</p>
+		<div class="container">
+			<div class="overlay">
+				<h1>Services</h1>
+				<div class="content">
+					<ul class="serviceNav">
+						<!-- <hr> -->
+						<li>
+							<a href="serviceLogo.html">Logo Branding Design</a>
+						</li>
+						<li>
+							<a href="serviceWebApp.html">Web/App Develoment </a>
+						</li>
+						<li>
+							<a href="serviceDply.html">Full Deployments</a>
+						</li>
+						<li>
+							<a href="serviceRedo.html">Web Site Overhauls</a>
+						</li>
+						<li>
+							<a href="serviceCompRp.html">Computer Repair</a>
+						</li>
+						<!-- <hr> -->
+					</ul>
+				</div>
 			</div>
-			<!-- <br> -->
 		</div>
-		<!-- <br><br><br><br> -->
+
+		<div class="container serviceInfo" id="serviceInfo">
+			<div id="serviceAplus">
+				<br>
+				<img src="assets/images/aaa.png" alt="" id="serviceImg">
+
+				<div id="Infotext">
+					<h1>Miguel Camacho</h1>
+					<p>FullStack Web Developer</p>
+					<p>Computer Tech</p>
+				</div>
+				<!-- <br> -->
+			</div>
+			<!-- <br><br><br><br> -->
+		</div>
+		<div id="spacer"></div>
+
 	</div>
-	<div id="spacer"></div>
-
-
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
@@ -104,8 +111,9 @@
 	</script>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<!-- <script src="script.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<!-- <script src="script.js"></script> -->
 
 	<script>
 		$(document).ready(function () {
@@ -117,7 +125,7 @@
 				$('#serviceInfo').fadeToggle('slow');
 				$('#spacer').fadeToggle("slow");
 				// $('.a').slideUp('1000');
-				
+
 			});
 		});
 	</script>
