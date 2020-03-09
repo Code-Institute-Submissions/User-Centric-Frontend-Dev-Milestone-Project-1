@@ -1,0 +1,204 @@
+	<style>
+		html {
+			background-color: black;
+		}
+
+		body {
+			background-image: url("assets/images/contactBGX.jpg");
+			background-image: url("assets/images/contactBG.jpg");
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
+			background-repeat: no-repeat;		
+			width: 100%;
+		}
+
+		#navBG {
+			background-position: top 79% left 25%;
+			background-position: top;
+			background-image: url("assets/images/xx.jpg");
+			background-size: 120%;
+			width: auto;
+			margin: 0;
+			box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			text-align: right;
+			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
+		}
+
+		#myCollapsingList>li>a {
+			color: #3a318285;
+			color: white;
+			margin-bottom: 1.5px;
+			margin-right: 1.5px;
+			padding-bottom: 2.5%;
+		}
+
+		#myCollapsingList>li>a:hover {
+			padding-right: 10%;
+		}
+
+		#myCollapsingList {			
+			background-size: 120%;
+			background-image: url("assets/images/xx.jpg");
+			background-position: bottom;
+			float: right;
+			margin-top: 10%;
+			overflow: hidden;			
+			border-radius: 1.5em;
+			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
+			height: 100%;
+		}
+
+		.navbar-toggle {
+			background-color: #ffffff36;
+			background-color: #ffffff00;			
+			border: 1px solid white;
+		}
+
+		.navbar-toggle:hover {
+			background-color: #ffffff9f;
+		}
+
+		.navbar-brand {
+			color: rgb(255, 255, 255);
+			line-height: 25px;
+			text-shadow: 2px 3px 4px rgb(0, 0, 0);
+		}
+
+		.navbar-brand:hover {
+			background-color: #ffffff36;
+			color: rgb(255, 255, 255);
+			border-radius: 1.5em;
+			padding-top: 10px;
+			border: 1px solid white;
+		}
+
+		.navbar-nav {
+			width: 100%;
+			background-color: rgb(255, 255, 255);
+		}
+
+		.icon-bar {
+			color: rgb(255, 255, 255);
+			color: transparent;
+		}
+
+		.navbar-dark {
+			background: rgba(255, 255, 255, 0);
+		}
+
+		.navbar-nav>li>a:hover {
+			background-color: #ffffffb2;
+			color: #3a318285;
+			font-size: 32px;
+			padding-right: 10%;
+			background-color: rgba(255, 255, 255, 0.182);
+
+		}
+
+		.form {
+			width: 90%;
+		}
+
+		.form-control {
+			border: 2em;
+		}
+
+
+		@media (max-width: 767px) {
+			#myCollapsingList>li>a:hover {
+				padding-right: 0%;
+			}
+
+			#myCollapsingList {
+				background-color: rgba(255, 255, 255, 0);
+			}
+
+			#register-form {
+				width: 90%;
+			}
+		}
+
+		@media (min-width: 768px) {
+
+			#myCollapsingList>li>a:hover {
+				padding-right: 5%;
+			}
+
+			#myCollapsingList {
+				background-image: url("#");
+				background-color: rgba(255, 255, 255, 0);
+				margin-top: 4px;
+				margin-right: 2.5%;
+			}
+
+			.navbar-nav>li>a:hover {
+				background-color: rgba(255, 255, 255, 0);
+			}
+		}
+
+		#popupMenue {
+			display: none;
+			text-align: center;
+		}
+
+		.overlay {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: max-content;
+			width: 100%;
+			padding-left: 5%;
+			padding-right: 5%;
+			box-shadow: 1px 1px 5px rgb(0, 0, 0);
+			background-color: rgba(0, 0, 0, 0.493);
+			border: 2px rgba(255, 255, 255, 0) solid;
+			border-color: rgba(255, 255, 255, 0.486);
+			border-radius: 1.5em;
+			margin-top: -7px;
+			padding-top: -50px;
+			border-top: none;
+			text-align: left;
+			color: white;
+			overflow: hidden;
+		}
+
+		.overlay h1 {
+			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.74);
+		}
+
+		.popupMenue {
+			background-image: url("assets/images/xx.jpg");
+			background-position: top 39% left 25%;
+			background-size: 120%;
+			width: auto;
+			margin: 0;
+			box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			text-align: right;
+			text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
+		}
+
+		.serviceNav li {
+			background-color: rgba(0, 0, 0, 0.394);
+			border: 2px rgba(255, 255, 255, 0) solid;
+			border-color: rgba(255, 255, 255, 0.278);
+			border-radius: 1.5em;
+			text-align: right;
+			border-top: none;
+			padding: 2.55%;
+			margin: 2%;
+			overflow: hidden;
+			text-decoration: none;
+		}
+
+		.serviceNav li a:hover {
+			color: white;
+			text-decoration: none;
+			background-color: rgba(255, 255, 255, 0.194);
+			padding: 2.5%;
+			border-radius: 1.5em;
+			width: 100%;
+			padding-right: 30%;
+			box-shadow: 1px 1px 5px rgb(255, 255, 255);
+		}
+	</style>
