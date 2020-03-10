@@ -18,9 +18,10 @@ using EmailJS and some JavaScript.
 
 ![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ServiceShowcase.png?raw=true "proof of services")
 
-- As a customer I expect to be able to submit a request for a service.
+- As a customer I expect to be able to submit a request for a service and have it sent online.
 
 ![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ContactShowcase.png?raw=true "proof of requests")
+![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/ContactShowcase2.png?raw=true "proof of delivery")
 
 ### SKELETON 
 
