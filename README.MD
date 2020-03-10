@@ -72,7 +72,7 @@ The FullStack section of the landing page features a D3 chart that I acquired on
 ![iMessage Preview](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/iMessageLink.png?raw=true "iMessage")
 
 ### Features Left to Implement
-Future vision for this project would be to expand on the services section add more detailed information to services provided. Also add pricing to the services. Finally I would create a social media presence for Company - { MAC|media } and launch a marketing campaign to acquire direct leads to potential clients or employers.
+Future vision for this project would be to expand on the services section add more detailed information to services provided. Also create a dashboard and add pricing to the services. Finally I would create a social media presence for Company - { MAC|media } and launch a marketing campaign to acquire direct leads to potential clients or employers.
  
 ### Contact Page Features
 - ContactPage - allows customers to submit a service request, by filling out the contact form
