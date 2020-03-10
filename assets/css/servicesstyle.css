@@ -154,12 +154,6 @@ a {
     text-align: right;
 }
 
-#myCollapsingList>li>a {
-    color: white;
-    margin-bottom: 1.5px;
-    padding-bottom: 2.5%;
-}
-
 #myCollapsingList {
     background-size: 120%;
     background-position: top 79% left 25%;
@@ -169,6 +163,12 @@ a {
     padding-left: 0;
     border-radius: 1.5em;
     margin-right: 2.5%;
+}
+
+#myCollapsingList>li>a {
+    color: white;
+    margin-bottom: 1.5px;
+    padding-bottom: 2.5%;
 }
 
 .navbar-toggle {
