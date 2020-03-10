@@ -1,5 +1,4 @@
 #popOLay {
-    display: inline;
     top: -400px;
     display: none;
 }
@@ -68,15 +67,9 @@ iframe {
     padding-left: 1.5%;
 }
 
-.navbar-brand {
-    /* line-height: -25px; */
-    color: rgb(255, 255, 255);
-}
-
 nav.navbar-dark {
     background-position: bottom;
     text-align: right;
-    /* position: right; -XXX */
     border: hidden;
 }
 
@@ -85,7 +78,6 @@ nav.navbar-dark {
 }
 
 .navbar-toggle {
-    background-color: #ffffff36;
     background-color: #ffffff00;
     padding-top: 10px;
     border: 1px solid white;
@@ -93,20 +85,16 @@ nav.navbar-dark {
 }
 
 .navbar-toggle:hover {
-    background-color: rgba(30, 186, 37, 0.83);
     background-color: #7efc009d;
 }
 
 #myCollapsingList {
     background-color: rgba(0, 0, 0, 0.215);
-    background-position: left top -20%;
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: left bottom;
-    width: max-content;
     float: right;
     text-align: right;
-    width: max-content;
     margin: 0 auto;
     margin-top: -78px;
     height: 100%;
@@ -354,6 +342,7 @@ select {
 
 #register-form {
     background-image: url("assets/images/aaa.png");
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     margin-bottom: 10%;
     padding-bottom: 10%;
@@ -361,18 +350,15 @@ select {
     background-origin: content-box;
     background-repeat: no-repeat;
     margin-top: 5%;
-    text-shadow: white;
     padding: 1%;
     border-radius: 2.5em;
-    box-shadow: 10px 10px white;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #popIn {
     display: none;
     background-image: url("assets/images/aaa.png");
-    width: 100;
+    width: 100%;
     background-size: 30%;
     background-origin: content-box;
     background-repeat: no-repeat;
@@ -395,10 +381,6 @@ select {
 .form {
     padding-bottom: 4%;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-form::box-shadow {
-    background-color: white;
 }
 
 .form-control {
@@ -431,8 +413,7 @@ form::box-shadow {
 }
 
 textarea {
-    color: black;
-
+    color: black;    
 }
 
 textarea.form-control {
@@ -442,7 +423,6 @@ textarea.form-control {
 
 input.form-control {
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0.199);
 }
 
@@ -526,7 +506,6 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: max-content;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -536,12 +515,17 @@ h5 {
     border-color: rgba(255, 255, 255, 0.486);
     border-radius: 1.5em;
     margin-top: -7px;
-    padding-top: -50px;
+    padding-top: -50px; /* negative values are allowed */
     border-top: none;
     text-align: left;
     color: white;
     overflow: hidden;
 }
+
+#projectsummary , #fullname , #emailaddress{
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
 
 .overlay h1 {
     text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.74);
@@ -630,8 +614,9 @@ h5 {
     }
 
     .navbar-brand {
-        line-height: -25px;
+        line-height: -25px; /* negative values are allowed */
         font-size: 32px;
+        color: rgb(255, 255, 255);
     }
 
     .navbar-nav>li>a:hover {
@@ -639,9 +624,7 @@ h5 {
         color: #3a3182;
         font-size: 32px;
         border-radius: 3.5em;
-        /* width: 85%; */
         margin-left: 14%;
-
     }
 
 
@@ -710,7 +693,6 @@ h5 {
     #myCollapsingList {
         margin-top: -78px;
         width: max-content;
-        background-image: url("assets/images/xx.jpg");
         background-image: none;
         background-color: black;
         background-position: center;
@@ -761,7 +743,6 @@ h5 {
     #myCollapsingList {
         margin-top: -78px;
         width: max-content;
-        background-image: url("assets/images/xx.jpg");
         background-image: none;
         background-color: black;
         background-position: center;
