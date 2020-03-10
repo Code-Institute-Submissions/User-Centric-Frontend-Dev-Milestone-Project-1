@@ -39,6 +39,7 @@ body {
     background-position: bottom;
     float: right;
     margin-top: 10%;
+    margin-right: 2.5%;
     overflow: hidden;
     border-radius: 1.5em;
     text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.374);
@@ -122,6 +123,7 @@ body {
         background-color: rgba(255, 255, 255, 0);
         margin-top: 4px;
         margin-right: 2.5%;
+        display: visible;
     }
 
     .navbar-nav>li>a:hover {
@@ -147,8 +149,7 @@ body {
     border-color: rgba(255, 255, 255, 0.486);
     border-radius: 1.5em;
     margin-top: -7px;
-    padding-top: -50px;
-    /* negative values are allowed */
+    padding-top: -50px; /* negative values are allowed */
     border-top: none;
     text-align: left;
     color: white;

@@ -101,6 +101,13 @@ nav.navbar-dark {
     width: 100%;
 }
 
+#myCollapsingList>li>a {
+    color: white;
+    margin-bottom: 1.5px;
+    margin-right: 1.5px;
+    padding-bottom: 2.5%;
+}
+
 nav a {
     font-size: large;
     text-decoration: none;
@@ -691,6 +698,7 @@ h5 {
     }
 
     #myCollapsingList {
+        margin-right: 2.5%;
         margin-top: -78px;
         width: max-content;
         background-image: none;
