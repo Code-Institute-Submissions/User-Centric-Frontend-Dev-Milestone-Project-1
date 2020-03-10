@@ -44,26 +44,21 @@
 						<span class="icon-bar"></span>
 					</button>
 				</div>
+				<div class="mobileSplashMenue"></div>
 
 				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-					<div class="mobileSplashMenue">
-
-					</div>
-					<br><br><br><br>
 					<li><a class="active" href="services.html">Services</a></li>
 					<li><a href="index.html#sec-fullstack">Skills</a></li>
 					<li><a href="#fullBG-marketing">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
-					<div class="mobileSplash-BottomMenue">
-					</div>
 				</ul>
+				<div class="mobileSplash-BottomMenue"></div>
 			</div>
 		</nav>
 
 
 		<div id="popOLay" class="container">
 			<div class="overlay">
-				<h1></h1>
 				<h1>Services</h1>
 				<div class="content">
 					<ul class="serviceNav">
@@ -95,10 +90,11 @@
 					<div class="heroText sleekBorder">
 						<h1>MAC|media</h1>
 						<h5>Software Solutions</h5>
-						<p> { M|m } </p>
-						<button class="btn btn-large sleekBorder" id="heroBtn">
-							<a id="btnVm" href="serviceCompRp.html">View More</a>
-						</button>
+						<p> { M|m } 
+                        <br>
+						<a id="btnVm" class="sleekBorder" href="serviceCompRp.html">View More</a>					
+                        </p>
+						<br><br>
 					</div>
 				</div>
 			</div>
@@ -106,7 +102,7 @@
 
 	</div>
 
-	<!-- iFrames & D3 charts Fullstack Section 1 --->
+	<!-- iFrames & D3 charts Fullstack Section 1 -->
 	<div id="sec-fullstack" class="container">
 		<div class="row">
 			<div class="col-12">
@@ -115,7 +111,7 @@
 				<div class="col-sm-6 col-lg-4 d3_fullstack">
 					<h3>Frontend Development</h3>
 					<p>Visual designs of the website.</p>
-
+                    <!-- CSS NOscroll fix not supported in all browsers -->
 					<iframe src="iFrameFront.html" scrolling="no"></iframe>
 
 				</div>
@@ -124,7 +120,7 @@
 
 					<h3>Backend Development</h3>
 					<p>Databases and Infrastructure.</p>
-
+                    <!-- CSS NOscroll fix not supported in all browsers -->
 					<iframe id="d3iframe" src="iFrameBack.html" scrolling="no"></iframe>
 				</div>
 
@@ -132,7 +128,7 @@
 
 					<h3>FullStack Development</h3>
 					<p>Skilled in all aeras of web stack.</p>
-
+                    <!-- CSS NOscroll fix not supported in all browsers -->
 					<iframe src="iFrameFull.html" scrolling="no"></iframe>
 				</div>
 
@@ -152,12 +148,10 @@
 				</div>
 				<div class="text-left fs">
 					<h4 class="text-right">
-						<p>
 							Ability to work <br><small>seamlessly</small><br> accross all <br>
 							<small>Software</small> layers.<br>
 							<small>Server side</small> &<br><small>client side</small>
-							<p>Frontend &<br> Backend<strong>skills. </strong></p>
-						</p>		
+							<br>Frontend &<br> Backend<strong>skills. </strong>
 					</h4>
 					<div class="links">
 						<p><br>
@@ -177,12 +171,10 @@
 				</div>
 				<div class="text-left">
 					<h4 class="text-left text-right ">
-						<p>
 							Frontend <br><small>deployment</small><br><br>
 							<strong>Backend</strong><br>
 							<small>deployment</small> &<br><strong></strong>Backend<small>server.</small>
-							<p>Management <br><small>experience.</small></p>
-						</p>
+							<br>Management <br><small>experience.</small>
 					</h4>
 					<div class="links">
 						<p><br>
@@ -220,8 +212,6 @@
 				$('#sec-fullstack').fadeToggle("slow");
 				$('#fullBG-marketing').fadeToggle("slow");
 				$('#myCollapsingList').fadeToggle('slow');
-				// $('#popIn').fadeToggle("slow");
-				// $('#popupMenue').fadeToggle('fast');
 				$('#popOLay').fadeToggle('fast');
 			});
 		});
