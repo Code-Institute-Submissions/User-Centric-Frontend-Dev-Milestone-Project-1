@@ -109,6 +109,7 @@ into your terminal, when finished type `git remote rm origin` into your terminal
 
 ## Credits
 - The D3 charts from the landing page were creating by putting together pieces from the following resource of tutorials [Learn D3.JS simply easy learning](https://www.tutorialspoint.com/d3js/index.htm)
+- The redirection of submit button in ContactPage from Stackoverflow [Make button act like hyperlink](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
 
 
 ### Acknowledgements

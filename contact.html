@@ -31,7 +31,7 @@
 
 	<script type="text/javascript">
 		(function () {
-			// emailjs.init("user_tCGWNZ01bkBaa5oF3FNbD");
+			emailjs.init("user_tCGWNZ01bkBaa5oF3FNbD");
 			emailjs.send("gmail", "sendEjs", {
 				"from_name": "TeacherCodeINST",
 				"from_email": "Grading Started",
@@ -142,7 +142,7 @@
 							<div class="form-row text-center">
 								<div class="col text-center">
 									<div id="bsend">
-										<button id="sbtbtn" type="submit" class="bth bth-secondary">send</button>
+										<button onclick="location.href='contact.html';" id="sbtbtn" type="submit" class="bth bth-secondary">send</button>
 									</div>
 								</div>
 							</div>
@@ -185,7 +185,8 @@
 				$('#register-form').fadeToggle("fast");
 				$('#popIn').fadeToggle("slow");
 				$('#popupMenue').fadeToggle('fast');
-			});
+            });
+       
 		});
 	</script>
 
