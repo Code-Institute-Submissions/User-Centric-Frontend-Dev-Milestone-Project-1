@@ -2,6 +2,7 @@
 User Centric Frontend Development 
 Milestone Project - Code Institute
 #  { MAC | media } - Company Portfolio
+![Services Showcased](https://github.com/MACmidiDEV/User-Centric-Frontend-Dev-Milestone-Project/blob/master/assets/wireframes/Milestone1.png?raw=true "Milestone-1_Project")
 ```
 MAC|media Company website presents company services to prospective clients.
 This website showcases five company services covering a range
