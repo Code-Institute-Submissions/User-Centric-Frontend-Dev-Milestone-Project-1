@@ -96,7 +96,8 @@ nav.navbar-dark {
     float: right;
     text-align: right;
     margin: 0 auto;
-    margin-top: -78px;
+    /* margin-top: -78px; */
+    /* margin-top: 2px; */
     height: 100%;
     width: 100%;
 }
@@ -683,6 +684,14 @@ h5 {
         margin-top: 7.5px;
     }
 
+ #myCollapsingList {
+        margin-right: 2.5%;
+        /* margin-top: -78px; */
+        width: max-content;
+        background-image: none;
+        background-color: black;
+        background-position: center;
+    }
 
 }
 
@@ -706,7 +715,7 @@ h5 {
 
     #myCollapsingList {
         margin-right: 2.5%;
-        margin-top: -78px;
+        /* margin-top: -78px; */
         width: max-content;
         background-image: none;
         background-color: black;
@@ -756,7 +765,7 @@ h5 {
     }
 
     #myCollapsingList {
-        margin-top: -78px;
+        /* margin-top: -78px; */
         width: max-content;
         background-image: none;
         background-color: black;
